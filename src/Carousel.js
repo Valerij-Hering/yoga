@@ -4,7 +4,7 @@ import { useState } from 'react';
 function Carousel() {
 
     const [trainer, setTrainer] = useState(0);
-    const {id, name, experience, image, program} = dataCarousel[trainer];
+    const {name, experience, image, program} = dataCarousel[trainer];
   
   
     const previousTrainer = () => {
