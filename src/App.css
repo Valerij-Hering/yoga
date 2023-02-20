@@ -626,50 +626,6 @@ body {
   font-size: 13px;
 }
 
-.custom-shape-divider-top-1676897159 {
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-top-1676897532 svg {
-  position: relative;
-  display: block;
-  width: calc(108% + 1.3px);
-  height: 107px;
-  transform: rotateY(180deg);
-}
-
-.custom-shape-divider-top-1676897532 .shape-fill {
-  fill: #ecf0f3;
-}
-
-
-
-
-.custom2-shape-divider-top-1676897159 {
-
-  top: 0;
-  left: 0;
-
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom2-shape-divider-top-1676897532 svg {
-  position: relative;
-  display: block;
-  width: calc(108% + 1.3px);
-  height: 107px;
-  transform: rotateY(180deg);
-}
-
-.custom2-shape-divider-top-1676897532 .shape-fill {
-  fill: #fff;
-}
-
 /* CONTACT *******************************************************************************************************************************************/
 
 .map-grayscale {

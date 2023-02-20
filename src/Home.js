@@ -31,18 +31,10 @@ function Home() {
                 </div>
                 <div>
                     <img className='girl-header' src={imageHeader} alt="girl"/>
-                    {/* <svg className='svg-home' viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                    <path fill="#8661b9" d="M34.4,-30.1C43.3,-16.1,48.6,-1.9,47.2,13.4C45.7,28.6,37.6,45,22.1,56.6C6.5,68.2,-16.4,75,-22.4,65.1C-28.4,55.1,-17.4,28.3,-12.8,13C-8.2,-2.2,-10.1,-5.9,-9.1,-18C-8,-30.1,-4,-50.7,4.3,-54.1C12.7,-57.6,25.4,-44,34.4,-30.1Z" transform="translate(100 100)" />
-                    </svg> */}
                 </div>
                 
             </div>
             <img className='imgFon1' src={imgFon1} alt='fon'/>
-            {/* <div class="custom-shape-divider-top-1676897532">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
-                </svg>
-            </div> */}
             <p className='info-title1'>How It Works</p>
             <p className='info-title2'>Completely network impactful users whereas next generation applications.</p>
             <div className='container-info'>
@@ -111,13 +103,6 @@ function Home() {
                 </div>
 
                 <img className='girl-tarif' src={girl2} width="550px" alt="girl"/>
-                {/* <div className='box-tarif'>
-                    <div>
-                        <p className='tarif-par1'>one-time visit</p>
-                        <p className='tarif-par2'>For any workout</p>
-                    </div>
-                    <p className='tarif-par3'>$120</p>
-                </div> */}
                 
             </div>
             
