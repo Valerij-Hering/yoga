@@ -18,11 +18,9 @@ const Trainings = ({training}) => {
                 const {id, image, name, text, showMore} = element;
                 return (
                     <div className="product-card" style={{ backgroundImage: `url(${image}.jpg)` } } key={id}>
-                        {/* <img className="product-img"src={`${image}.jpg`} alt="foto"/> */}
                         <div className="box-nameAndText">
                             <div className="circle"></div>
                             <p className="product-name">{name}</p>
-                            {/* <ion-icon  name="heart-outline"></ion-icon> */}
                             <img className='lotus-img' src={lotus} width="30px" alt='lotus'/>
                             <p className="product-text">{showMore ? text.substring(0, 80) + "...": text } <button className='more-btn' onClick={() => showTextClick(element)}>{showMore ? 'show more': 'show less'}</button></p>
                         </div>

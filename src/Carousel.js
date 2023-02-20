@@ -39,8 +39,8 @@ function Carousel() {
             <p className="trainer-exp">Сoaching experience: <span>{experience}</span></p>
             <p className="trainer-exp">Direction: <span>{program}</span></p>
             <div className='trainer-box-btn'>
-              <button className="trainer-btn" onClick={previousTrainer}><i class="fi fi-ss-angle-circle-left"></i></button>
-              <button className="trainer-btn" onClick={nextTrainer}><i class="fi fi-ss-angle-circle-right"></i></button>
+              <button className="trainer-btn" onClick={previousTrainer}><i className="fi fi-ss-angle-circle-left"></i></button>
+              <button className="trainer-btn" onClick={nextTrainer}><i className="fi fi-ss-angle-circle-right"></i></button>
             </div>
         </div>
         
