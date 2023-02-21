@@ -8,7 +8,6 @@ import data from './data';
 import Buttons from './Buttons';
 import girl2 from './exprience.png'
 import Carousel from './Carousel';
-import imgFon1 from './img-fon1.png'
 import ScrollButton from './ScrollButton';
 import Footer from './Footer';
 
@@ -34,7 +33,6 @@ function Home() {
                 </div>
                 
             </div>
-            {/* <img className='imgFon1' src={imgFon1} alt='fon'/> */}
             <p className='info-title1'>How It Works</p>
             <p className='info-title2'>Completely network impactful users whereas next generation applications.</p>
             <div className='container-info'>
