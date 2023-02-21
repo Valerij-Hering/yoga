@@ -26,7 +26,7 @@ function Home() {
                 <div className='home-header-text'>
                     <p className='home-par'>Right Way <span className='home-span'>YOGA</span></p>
                     <p className='home-par2'>With a subscription to our studio, you can attend any of the proposed yoga directions at a convenient time for you. Sign up and have fun.</p>
-                    <a href='/about' className='home-btn'>Read More</a>
+                    <a href='#training' className='home-btn'>Read More</a>
                 </div>
                 <div>
                     <img className='girl-header' src={imageHeader} alt="girl"/>
@@ -53,7 +53,7 @@ function Home() {
                 </div>
             </div>
 
-            <p className='travel-point-tittle1'>Types of Yoga</p>
+            <p className='travel-point-tittle1' id='training'>Types of Yoga</p>
             <h2 className='travel-point-tittle2'>We Provide The Best Yoga</h2>
             <Buttons chosenTrainings = {chosenTrainings}/>
             <Trainings training = {training}/>
