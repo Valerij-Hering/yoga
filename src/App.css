@@ -1020,7 +1020,7 @@ margin-bottom: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: -30px;
+    margin-top: 0px;
   }
 
   .about-img {

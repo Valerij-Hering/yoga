@@ -32,17 +32,17 @@ function Carousel() {
 
           
           <div className="trainer-position-btn">
-          <button className="trainer-btn" onClick={previousTrainer}><i class="fi fi-bs-angle-left"></i></button>
+          <button className="trainer-btn" onClick={previousTrainer}><i className="fi fi-bs-angle-left"></i></button>
           <div className="tr-fon">
             <img className="trainer-img"  src={`${image}.png`} alt="trainer"/>
           </div>
-          <button className="trainer-btn" onClick={nextTrainer}><i class="fi fi-bs-angle-right"></i></button>
+          <button className="trainer-btn" onClick={nextTrainer}><i className="fi fi-bs-angle-right"></i></button>
           </div>
 
           <div className="tr-fon2">
-          <button className="trainer-btn-phone" onClick={previousTrainer}><i class="fi fi-bs-angle-left"></i></button>
+          <button className="trainer-btn-phone" onClick={previousTrainer}><i className="fi fi-bs-angle-left"></i></button>
             <img className="trainer-img"  src={`${image}.png`} alt="trainer"/>
-            <button className="trainer-btn-phone" onClick={nextTrainer}><i class="fi fi-bs-angle-right"></i></button>
+            <button className="trainer-btn-phone" onClick={nextTrainer}><i className="fi fi-bs-angle-right"></i></button>
           </div>
   
         <div>
@@ -50,10 +50,6 @@ function Carousel() {
             <p className="trainer-name">{name}</p>
             <p className="trainer-exp">Experience: </p><span className="trainer-span">{experience}</span>
             <p className="trainer-exp">Direction: </p><span className="trainer-span">{program}</span>
-            <div className='trainer-box-btn'>
-             
-              
-            </div>
         </div>
         </div>
         
