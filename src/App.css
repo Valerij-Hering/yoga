@@ -425,9 +425,9 @@ body {
 .product-name {
   margin-top: 10px;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .product-text {
@@ -499,7 +499,7 @@ body {
 }
 
 .lotus-img {
-  margin-bottom: 13px;
+  margin-bottom: 7px;
   opacity: 1;
 }
 
