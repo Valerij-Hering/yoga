@@ -23,7 +23,7 @@ function Home() {
 
     return (
         <div className='container-home'>
-            <div className='home-header'>
+            <div className='home-header shapedividers_com-900'>
                 <div className='home-header-text'>
                     <p className='home-par'>Right Way <span className='home-span'>YOGA</span></p>
                     <p className='home-par2'>With a subscription to our studio, you can attend any of the proposed yoga directions at a convenient time for you. Sign up and have fun.</p>
@@ -34,7 +34,7 @@ function Home() {
                 </div>
                 
             </div>
-            <img className='imgFon1' src={imgFon1} alt='fon'/>
+            {/* <img className='imgFon1' src={imgFon1} alt='fon'/> */}
             <p className='info-title1'>How It Works</p>
             <p className='info-title2'>Completely network impactful users whereas next generation applications.</p>
             <div className='container-info'>
@@ -69,7 +69,7 @@ function Home() {
 
             <p className='travel-point-tittle1'>Our Prices</p>
             <h2 className='travel-point-tittle2'>We Offer The Best Prices</h2>
-            <div className='container-tarif'>
+            <div className='container-tarif '>
                 <div className='container-tarif2'>
                 <div className='box-tarif'>
                     <div>

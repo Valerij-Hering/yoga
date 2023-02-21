@@ -13,7 +13,7 @@ const data = [
         id: '2',
         image: 'pilates',
         name: 'Pilates',
-        text: 'Today, Pilates is more likely to be seen as a method for effectively tightening the figure, to improve posture and increase body density. Due to the fact that during the classes there are no shock loads, it is possible to practice according to the method even at an older age, and even for pregnant women.',
+        text: 'Today, Pilates is more likely to be seen as a method for effectively tightening the figure, to improve posture and increase body density.',
         searchTerm: 'novice',
         showMore: "false"
     },
