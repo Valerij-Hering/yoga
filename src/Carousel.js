@@ -29,10 +29,10 @@ function Carousel() {
   
     return (
       <div className="container-trainer">
-        <div className='trainer-img'>
-          <img className="trainer-img"  src={`${image}.png`} alt="trainer"/>
-          <div className="tr-fon"></div>
-        </div>
+
+          
+          <div className="tr-fon"><img className="trainer-img"  src={`${image}.png`} alt="trainer"/></div>
+
   
         <div className='trainer-info'>
             <p className="trainer-name">{name}</p>
