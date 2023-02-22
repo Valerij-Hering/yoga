@@ -1,4 +1,3 @@
-import Footer from "./Footer"
 
 const Contacts = () => {
     return(
@@ -20,7 +19,6 @@ const Contacts = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     )
 }

@@ -9,7 +9,6 @@ import Buttons from './Buttons';
 import girl2 from './exprience.png'
 import Carousel from './Carousel';
 import ScrollButton from './ScrollButton';
-import Footer from './Footer';
 
 
 function Home() {
@@ -103,8 +102,6 @@ function Home() {
                 <img className='girl-tarif' src={girl2} width="550px" alt="girl"/>
                 
             </div>
-            
-            <Footer/>
             <ScrollButton/>
         </div>
     )

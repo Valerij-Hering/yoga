@@ -1,4 +1,3 @@
-import Footer from "./Footer"
 import aboutImg from './about-img.jpg'
 
 const About = () => {
@@ -17,7 +16,6 @@ const About = () => {
                 </div>
                 <img className="about-img" src={aboutImg} width='500px' alt="yoga"/>
             </div>
-            <Footer/>
         </div>
     )
 }
