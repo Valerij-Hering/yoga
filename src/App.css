@@ -549,6 +549,7 @@ body {
   left: 25px;
 }
 
+
 .tr-fon {
   background: linear-gradient(to top, #8661b9 80%, #8661b9);
   width: 400px;
@@ -1113,7 +1114,8 @@ margin-bottom: 300px;
   }
   
   .tr-fon2 {
-    width: 100%;
+    border-radius: 25px;
+    width: 95%;
     display: block;
     display: flex;
     justify-content: space-between;

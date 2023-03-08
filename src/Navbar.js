@@ -42,11 +42,11 @@ const Navbar = () => {
           <Link to="/" className='link'>Home</Link>
           <Link to="/about" className='link'>About Us</Link>
           <Link to="/contacts" className='link link-contacts'>Contacts</Link>
-          <button onClick={() => burgerActiv()} className='burger'><i className="fi fi-br-menu-burger"></i></button>
+          <button onClick={() => burgerActiv()} className='burger'><i className='fas	fa-bars'></i></button>
         </nav>
 
         <div className={burger ? 'container-burger-activ' : 'container-burger'} >
-            <button className='btn-close-burger' onClick={() => burgerActiv()}><i className="fi fi-br-cross-small"></i></button>
+            <button className='btn-close-burger' onClick={() => burgerActiv()}><i className='fas	fa-times'></i></button>
             <Link  onClick={() => burgerActiv()}  to="/" className='link-burger link-burger1'>Home</Link>
             <Link  onClick={() => burgerActiv()} to="/about" className='link-burger'>About Us</Link>
             <Link  onClick={() => burgerActiv()} to="/contacts" className='link-burger'>Contacts</Link>

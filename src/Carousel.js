@@ -26,6 +26,7 @@ function Carousel() {
         return trainer;
       }))
     }
+
   
     return (
       <div className="container-trainer">
