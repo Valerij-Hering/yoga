@@ -9,6 +9,9 @@ import Buttons from './Buttons';
 import girl2 from './exprience.png'
 import Carousel from './Carousel';
 import ScrollButton from './ScrollButton';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 
 function Home() {
@@ -22,19 +25,19 @@ function Home() {
     return (
         <div className='container-home'>
             <div className='home-header shapedividers_com-900'>
-                <div className='home-header-text'>
-                    <p className='home-par'>Right Way <span className='home-span'>YOGA</span></p>
-                    <p className='home-par2'>With a subscription to our studio, you can attend any of the proposed yoga directions at a convenient time for you. Sign up and have fun.</p>
-                    <a href='#training' className='home-btn'>Read More</a>
+                <div className='home-header-text' data-aos="fade-up" data-aos-duration="1000" >
+                    <p  className='home-par'>Right Way <span className='home-span'>YOGA</span></p>
+                    <p className='home-par2' >With a subscription to our studio, you can attend any of the proposed yoga directions at a convenient time for you. Sign up and have fun.</p>
+                    <a className='home-btn' href='#training'>Read More</a>
                 </div>
                 <div>
-                    <img className='girl-header' src={imageHeader} alt="girl"/>
+                    <img className='girl-header' src={imageHeader} alt="girl" data-aos="fade-up" data-aos-duration="1000"/>
                 </div>
                 
             </div>
-            <p className='info-title1'>How It Works</p>
-            <p className='info-title2'>Completely network impactful users whereas next generation applications.</p>
-            <div className='container-info'>
+            <p className='info-title1' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">How It Works</p>
+            <p className='info-title2' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Completely network impactful users whereas next generation applications.</p>
+            <div className='container-info' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                 <div className='box-info'>
                     <img className='info-icon' src={follower} alt="icon"/>
                     <p className='info-par1'>Contact Us</p>
@@ -52,22 +55,22 @@ function Home() {
                 </div>
             </div>
 
-            <p className='travel-point-tittle1' id='training'>Types of Yoga</p>
-            <h2 className='travel-point-tittle2'>We Provide The Best Yoga</h2>
+            <p className='travel-point-tittle1' id='training' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Types of Yoga</p>
+            <h2 className='travel-point-tittle2' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">We Provide The Best Yoga</h2>
             <Buttons chosenTrainings = {chosenTrainings}/>
             <Trainings training = {training}/>
             <br/>
             <br/>
             <br/>
             <br/>
-            <p className='info-title1'>Our Instructors</p>
-            <p className='info-title2'>Our Instructors holder of a certificate in physical culture and sports.</p>
+            <p className='info-title1' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Our Instructors</p>
+            <p className='info-title2'data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Our Instructors holder of a certificate in physical culture and sports.</p>
             <Carousel/>
 
-            <p className='travel-point-tittle1'>Our Prices</p>
-            <h2 className='travel-point-tittle2'>We Offer The Best Prices</h2>
-            <div className='container-tarif '>
-                <div className='container-tarif2'>
+            <p className='travel-point-tittle1' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Our Prices</p>
+            <h2 className='travel-point-tittle2' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">We Offer The Best Prices</h2>
+            <div className='container-tarif'>
+                <div className='container-tarif2' data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
                 <div className='box-tarif'>
                     <div>
                         <p className='tarif-par1'>Subscription for 8 lessons</p>
@@ -99,7 +102,7 @@ function Home() {
                 </div>
                 </div>
 
-                <img className='girl-tarif' src={girl2} width="550px" alt="girl"/>
+                <img className='girl-tarif' data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" src={girl2} width="550px" alt="girl"/>
                 
             </div>
             <ScrollButton/>

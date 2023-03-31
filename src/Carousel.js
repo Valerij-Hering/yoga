@@ -32,7 +32,7 @@ function Carousel() {
       <div className="container-trainer">
 
           
-          <div className="trainer-position-btn">
+          <div className="trainer-position-btn" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
           <button className="trainer-btn" onClick={previousTrainer}><i className="fi fi-bs-angle-left"></i></button>
           <div className="tr-fon">
             <img className="trainer-img"  src={`${image}.png`} alt="trainer"/>
@@ -47,7 +47,7 @@ function Carousel() {
           </div>
   
         <div>
-        <div className='trainer-info'>
+        <div className='trainer-info'data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
             <p className="trainer-name">{name}</p>
             <p className="trainer-exp">Experience: </p><span className="trainer-span">{experience}</span>
             <p className="trainer-exp">Direction: </p><span className="trainer-span">{program}</span>

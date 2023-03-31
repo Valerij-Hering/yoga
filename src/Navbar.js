@@ -34,14 +34,14 @@ const Navbar = () => {
     window.addEventListener('scroll', toggleVisible);
   return (
     <Router>
-        <nav className={colorNav ? "navBarColor" : "navBar"}>
-          <div className='container-logo'>
+        <nav className={colorNav ? "navBarColor" : "navBar"} >
+          <div className='container-logo' data-aos="fade-down" data-aos-duration="1000" data-aos-once="false">
             <img className='logo' src={logo} width="60px" alt='logo'/>
             <p>yoga</p>
           </div>
-          <Link to="/" className='link'>Home</Link>
-          <Link to="/about" className='link'>About Us</Link>
-          <Link to="/contacts" className='link link-contacts'>Contacts</Link>
+          <Link to="/" className='link' data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">Home</Link>
+          <Link to="/about" className='link' data-aos="fade-down" data-aos-duration="1000" data-aos-once="false">About Us</Link>
+          <Link to="/contacts" className='link link-contacts' data-aos="fade-down" data-aos-duration="1000" data-aos-once="false">Contacts</Link>
           <button onClick={() => burgerActiv()} className='burger'><i className='fas	fa-bars'></i></button>
         </nav>
 

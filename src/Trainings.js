@@ -1,5 +1,8 @@
 import { useState } from 'react';
-import lotus from './lotus.png'
+import lotus from './lotus.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init();
 
 
 
@@ -17,7 +20,7 @@ const Trainings = ({training}) => {
             {training.map(element => {
                 const {id, image, name, text, showMore} = element;
                 return (
-                    <div className="product-card " style={{ backgroundImage: `url(${image}.jpg)` } } key={id}>
+                    <div className="product-card" style={{ backgroundImage: `url(${image}.jpg)` } } key={id} data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                         <div className='shapedividers_com-7677'></div>
                         <div className="box-nameAndText ">
                             {/* <div className="circle"></div> */}
