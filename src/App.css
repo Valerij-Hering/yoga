@@ -1300,6 +1300,10 @@ margin-bottom: 300px;
     margin: 0 auto;
   }
 
+  .trainer-info {
+    margin-top: 60px;
+  }
+
   .container-trainer {
     margin-top: 160px;
   }

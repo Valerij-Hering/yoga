@@ -37,13 +37,13 @@ function Carousel() {
           <div className="tr-fon">
             <img className="trainer-img"  src={`${image}.png`} alt="trainer"/>
           </div>
-          <button className="trainer-btn" onClick={nextTrainer}><i className="fi fi-bs-angle-up"></i></button>
+          <button className="trainer-btn" onClick={nextTrainer}><i className="fi fi-bs-angle-right"></i></button>
           </div>
 
           <div className="tr-fon2" data-aos="fade-up" data-aos-duration="1500">
           <button className="trainer-btn-phone" onClick={previousTrainer}><i className="fi fi-bs-angle-left"></i></button>
             <img className="trainer-img"  src={`${image}.png`} alt="trainer"/>
-            <button className="trainer-btn-phone" onClick={nextTrainer}><i className="fi fi-bs-angle-up"></i></button>
+            <button className="trainer-btn-phone" onClick={nextTrainer}><i className="fi fi-bs-angle-right"></i></button>
           </div>
   
         <div>
