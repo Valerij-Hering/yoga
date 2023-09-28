@@ -26,7 +26,7 @@ function Home() {
         <div className='container-home'>
             <div className='home-header shapedividers_com-900'>
                 <div className='home-header-text' data-aos="fade-right" data-aos-duration="1500">
-                    <p  className='home-par'>Right Way <span className='home-span'>YOGA</span><img className='line' src={line}/></p>
+                    <p  className='home-par'>Right Way <span className='home-span'>YOGA</span><img className='line' src={line} alt='line'/></p>
                     
                     <p className='home-par2' >With a subscription to our studio, you can attend any of the proposed yoga directions at a convenient time for you. Sign up and have fun.</p>
                     <div class="home-box-btn">
