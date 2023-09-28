@@ -25,7 +25,7 @@ function Home() {
     return (
         <div className='container-home'>
             <div className='home-header shapedividers_com-900'>
-                <div className='home-header-text' data-aos="fade-right" data-aos-duration="1500">
+                <div className='home-header-text' data-aos="fade-up" data-aos-duration="1500">
                     <p  className='home-par'>Right Way <span className='home-span'>YOGA</span><img className='line' src={line} alt='line'/></p>
                     
                     <p className='home-par2' >With a subscription to our studio, you can attend any of the proposed yoga directions at a convenient time for you. Sign up and have fun.</p>
@@ -39,7 +39,7 @@ function Home() {
             </div>
             
                 <div>
-                    <img className='girl-header' src={imageHeader} alt="girl" data-aos="fade-left" data-aos-duration="1500"/>
+                    <img className='girl-header' src={imageHeader} alt="girl" data-aos="fade-up" data-aos-duration="1500"/>
                 </div>
                 
             </div>
