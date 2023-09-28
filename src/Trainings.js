@@ -21,7 +21,7 @@ const Trainings = ({training}) => {
                 const {id, image, name, text, showMore} = element;
                 return (
                     <div className="product-card" style={{ backgroundImage: `url(${image}.jpg)` } } key={id} data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-                        <div className='shapedividers_com-7677'></div>
+                        <div className='shapedividers_com-3652'></div>
                         <div className="box-nameAndText ">
                             {/* <div className="circle"></div> */}
                             <p className="product-name">{name}</p>

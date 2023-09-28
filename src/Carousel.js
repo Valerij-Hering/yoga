@@ -4,7 +4,7 @@ import { useState } from 'react';
 function Carousel() {
 
     const [trainer, setTrainer] = useState(0);
-    const {name, experience, image, program} = dataCarousel[trainer];
+    const {name, experience, image, program, education} = dataCarousel[trainer];
   
   
     const previousTrainer = () => {
@@ -32,7 +32,7 @@ function Carousel() {
       <div className="container-trainer">
 
           
-          <div className="trainer-position-btn" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+          <div className="trainer-position-btn" data-aos="fade-right" data-aos-duration="1500" data-aos-once="true">
           <button className="trainer-btn" onClick={previousTrainer}><i className="fi fi-bs-angle-left"></i></button>
           <div className="tr-fon">
             <img className="trainer-img"  src={`${image}.png`} alt="trainer"/>
@@ -47,10 +47,12 @@ function Carousel() {
           </div>
   
         <div>
-        <div className='trainer-info'data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+        <div className='trainer-info' data-aos="fade-left" data-aos-duration="1500" data-aos-once="true">
             <p className="trainer-name">{name}</p>
-            <p className="trainer-exp">Experience: </p><span className="trainer-span">{experience}</span>
-            <p className="trainer-exp">Direction: </p><span className="trainer-span">{program}</span>
+            <p className="trainer-exp">Experience: <span className="trainer-span">{experience}.</span></p>
+            <p className="trainer-exp">Direction: <span className="trainer-span">{program}.</span></p>
+            <p className="trainer-exp">Education and Activities: </p>
+            <p className="trainer-span2">{education}</p>
         </div>
         </div>
         
