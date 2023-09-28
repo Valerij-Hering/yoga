@@ -254,8 +254,6 @@ body {
   width: 300px;
   right: 0px;
   top: 50px;
-  transition: ease 0.5s;
-  
 }
 
 .home-par2 {
@@ -445,9 +443,11 @@ transition: .25s;
 .container-product {
   display: flex;
   flex-wrap: wrap;
-  width: 71.6%;
+  max-width: 940px;
   margin: 10px auto;
-  
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
 }
 
 .product-card {
@@ -456,7 +456,7 @@ transition: .25s;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin: 20px;
+
   border-radius: 20px;
   background-size: cover;
   background-position: center;
@@ -550,7 +550,7 @@ transition: .25s;
 .filterBtn-box {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin: 40px 0;
 }
 
 .filter-btn-right {
@@ -732,11 +732,12 @@ transition: .25s;
 /* TARIF ******************************************************************************************************************************************/
 
 .container-tarif {
-  width: 70%;
+  width: 78%;
   display: flex;
   padding: 50px 0;
-  align-items: center;
-  justify-content: space-evenly;
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    grid-gap: 17px;
   margin: 0 auto;
 }
 
@@ -781,7 +782,7 @@ transition: .25s;
 
 .box-price {
  width: 290px;
-
+  margin: 0 10px;
  border: #ebebec 1px solid;
  border-radius: 20px;
 }
@@ -1083,20 +1084,23 @@ margin-bottom: 300px;
     width: 87%;
   }
 
+  
+
 }
 
-@media all and (max-width: 1190px) {
-  .container-product {
-    width: 61%;
+
+
+@media all and (max-width: 1173px) {
+  .container-tarif {
+    max-width: 600px;
   }
 }
 
-@media all and (max-width: 1130px) {
+@media all and (max-width: 1095px) {
   .container-product {
-    width: 90%;
+    max-width: 620px;
   }
 }
-
 
 @media all and (max-width: 1030px) {
   .about-header {
@@ -1131,10 +1135,6 @@ margin-bottom: 300px;
   .travel-point-tittle2 {
     margin-left: 0px;
     text-align: center;
-  }
-
-  .container-product {
-    width: 100%;
   }
 
   .container-trainer {
@@ -1174,9 +1174,19 @@ margin-bottom: 300px;
 
 }
 
+@media all and (max-width: 780px) {
+  .container-tarif {
+    max-width: 290px;
+  }
+}
+
+@media all and (max-width: 727px) {
+  .container-product {
+    max-width: 300px;
+  }
+}
+
 @media all and (max-width: 500px)  {
-
-
 
   .link {
     display: none;
@@ -1189,10 +1199,6 @@ margin-bottom: 300px;
 
   .container-logo {
     margin-left: 30px;
-  }
-
-  .container-product {
-    width: 80%;
   }
 
   .home-par2 {

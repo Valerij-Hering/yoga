@@ -78,37 +78,6 @@ function Home() {
             <p className='travel-point-tittle1' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Our Prices</p>
             <h2 className='travel-point-tittle2' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">We Offer The Best Prices</h2>
             <div className='container-tarif'>
-                {/* <div className='container-tarif2' data-aos="fade-right" data-aos-duration="1500" data-aos-once="true">
-                <div className='box-tarif'>
-                    <div>
-                        <p className='tarif-par1'>Subscription for 8 lessons</p>
-                        <p className='tarif-par2'>Validity - month</p>
-                    </div>
-                    <p className='tarif-par3'>$80</p>
-                </div>
-                <div className='box-tarif'>
-                    <div>
-                        <p className='tarif-par1'>Subscription for 12 lessons</p>
-                        <p className='tarif-par2'>Validity - month</p>
-                    </div>
-                    <p className='tarif-par3'>$90</p>
-                </div>
-                <div className='box-tarif'>
-                    <div>
-                        <p className='tarif-par1'>Subscription for 16 lessons</p>
-                        <p className='tarif-par2'>Validity - month</p>
-                    </div>
-                    <p className='tarif-par3'>$100</p>
-                </div>
-
-                <div className='box-tarif'>
-                    <div>
-                        <p className='tarif-par1'>unlimited subscription</p>
-                        <p className='tarif-par2'>Validity - month</p>
-                    </div>
-                    <p className='tarif-par3'>$120</p>
-                </div>
-                </div> */}
 
                 <div className='container-price' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <div className='box-price'>
