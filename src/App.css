@@ -1051,7 +1051,6 @@ margin-bottom: 300px;
   .girl-header {
     width: 90%;
     margin-left: 0px;
-    margin-top: 80px;
   }
 
   .home-header-text {
@@ -1327,6 +1326,7 @@ margin-bottom: 300px;
 
   .girl-header {
     width: 98%;
+    margin-top: 50px;
   }
 
   .tr-fon {
@@ -1358,11 +1358,6 @@ margin-bottom: 300px;
 
   .home-btn2-box {
     display: none;
-  }
-
-  .girl-header {
-    padding-top: 0px;
-    margin-top: 0px;
   }
 
   .container-tarif {
