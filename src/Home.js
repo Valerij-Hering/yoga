@@ -1,4 +1,4 @@
-import imageHeader from './header-girl3.png';
+import imageHeader from './header-girl.png';
 import follower from './contract2.png';
 import yoga from './yoga2.png';
 import ticket from './ticket2.png';
@@ -39,12 +39,12 @@ function Home() {
             </div>
             
                 <div>
-                    <img className='girl-header' src={imageHeader} alt="girl" data-aos="fade-up" data-aos-duration="1500"/>
+                    <img className='girl-header' src={imageHeader} alt="girl" data-aos="fade-up" data-aos-duration="1500" />
                 </div>
                 
             </div>
-            <p className='info-title1' data-aos="fade-up" data-aos-duration="1500">How It Works</p>
-            <p className='info-title2' data-aos="fade-up" data-aos-duration="1500">Completely network impactful users whereas next generation applications.</p>
+            <p className='info-title1' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">How It Works</p>
+            <p className='info-title2' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Completely network impactful users whereas next generation applications.</p>
             <div className='container-info'>
                 <div className='box-info' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <img className='info-icon' src={follower} alt="icon"/>
@@ -71,10 +71,16 @@ function Home() {
             <br/>
             <br/>
             <br/>
+            <br/>
+            <br/>
+            <br/>
             <p className='info-title1' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Our Instructors</p>
             <p className='info-title2' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Our Instructors holder of a certificate in physical culture and sports.</p>
+            <br/>
             <Carousel/>
-
+            <br/>
+            <br/>
+            <br/>
             <p className='travel-point-tittle1' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Our Prices</p>
             <h2 className='travel-point-tittle2' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">We Offer The Best Prices</h2>
             <div className='container-tarif'>
@@ -165,12 +171,11 @@ function Home() {
                         </div>
                     </div>
                 </div>
-
-                {/* <img className='girl-tarif' src={girl2} width="550px" alt="girl"  data-aos="fade-left" data-aos-duration="1000" data-aos-once="true"/> */}
-                
             </div>
             <ScrollButton/>
+            
         </div>
+        
     )
 }
 

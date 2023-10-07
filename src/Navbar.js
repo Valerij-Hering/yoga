@@ -36,18 +36,18 @@ const Navbar = () => {
   return (
     <Router>
         <nav className={colorNav ? "navBarColor" : "navBar"} >
-          <div className='container-logo' data-aos="fade-down" data-aos-duration="1000" data-aos-once="false">
+          <div className='container-logo' data-aos="fade-down" data-aos-duration="1500" data-aos-once="false">
             <img className='logo' src={logo} width="60px" alt='logo'/>
             <p>yoga</p>
           </div>
-          <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="false">
+          <div data-aos="fade-down" data-aos-duration="1500" data-aos-once="false">
             <Link to="/" className='link' >Home</Link>
             <HashLink className='link' smooth to="/#product">Programm</HashLink>
             <Link to="/about" className='link'>About Us</Link>
             <Link to="/contacts" className='link link-contacts'>Contacts</Link>
           </div>
-          <button className='btnSign' data-aos="fade-down" data-aos-duration="1000" data-aos-once="false">Sign in</button>
-          <button onClick={() => burgerActiv()} className='burger' data-aos="fade-down" data-aos-duration="1000" data-aos-once="false"><i className='fas	fa-bars'></i></button>
+          <button className='btnSign' data-aos="fade-down" data-aos-duration="1500" data-aos-once="false">Sign in</button>
+          <button onClick={() => burgerActiv()} className='burger' data-aos="fade-down" data-aos-duration="1500" data-aos-once="false"><i className='fas	fa-bars'></i></button>
         </nav>
 
         <div className={burger ? 'container-burger-activ' : 'container-burger'} >

@@ -48,11 +48,17 @@ function Carousel() {
   
         <div>
         <div className='trainer-info' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+        {/* <p className='titren2' >Team</p>
+        <p className='titren' >Our Instructors</p> */}
             <p className="trainer-name">{name}</p>
             <p className="trainer-exp">Experience: <span className="trainer-span">{experience}.</span></p>
             <p className="trainer-exp">Direction: <span className="trainer-span">{program}.</span></p>
             <p className="trainer-exp">Education and Activities: </p>
             <p className="trainer-span2">{education}</p>
+            <div className='tren-check'>
+              <i className='fas	fa-check-circle'></i>
+              <p>Certified Trainer</p>
+            </div>
         </div>
         </div>
         
