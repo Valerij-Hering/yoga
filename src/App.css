@@ -1764,13 +1764,21 @@ margin-bottom: 300px;
 
 
 /* ABOUT *******************************************************************************************************************************************/
+
+.container_about {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-header {
+  width: 90%;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
   align-items: center;
   margin-top: 150px;
-  margin-bottom: 100px;
 }
 
 .about {
@@ -1779,9 +1787,11 @@ margin-bottom: 300px;
   justify-content: flex-end;
 }
 .container-about {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   color: #565e73c9;
   margin-bottom: 30px;
+  
 }
 
 .travel-about-tittle1 {
@@ -2041,7 +2051,7 @@ margin-bottom: 300px;
 @media all and (max-width: 1030px) {
   .about-header {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
   }
 
@@ -2124,7 +2134,7 @@ margin-bottom: 300px;
   }
 
   .container-about {
-    width: 95%;
+
     margin-top: 0px;
     margin-left: 0px;
     text-align: justify;
@@ -2249,11 +2259,11 @@ margin-bottom: 300px;
   }
 
   .about-img {
-    width: 95%;
+    width: 90%;
   }
 
   .container-about {
-    width: 95%;
+
     margin-top: 0px;
     margin-left: 0px;
     text-align: justify;
