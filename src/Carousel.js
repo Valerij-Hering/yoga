@@ -4,7 +4,7 @@ import { useState } from 'react';
 function Carousel() {
 
     const [trainer, setTrainer] = useState(0);
-    const {name, experience, image, program, education} = dataCarousel[trainer];
+    const {name, experience, program, education} = dataCarousel[trainer];
   
   
     const previousTrainer = () => {
@@ -31,25 +31,44 @@ function Carousel() {
     return (
       <div className="container-trainer">
 
-          
+
           <div className="trainer-position-btn" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-          <button className="trainer-btn" onClick={previousTrainer}><i className="fi fi-bs-angle-left"></i></button>
+          
           <div className="tr-fon">
-            <img className="trainer-img"  src={`${image}.png`} alt="trainer"/>
+          <button className="trainer-btn1" onClick={previousTrainer}><i className="fi fi-bs-angle-left"></i></button>
+            {
+              dataCarousel.map((obect, index) => {
+                const {image} = obect
+                return (
+                  <img  className={trainer === index ? "trainer-img2" : "trainer-img"} src={`${image}.png`} alt="trainer" key={index}/>
+                )
+              })
+            }
+            <button className="trainer-btn2" onClick={nextTrainer}><i className="fi fi-bs-angle-right"></i></button>
           </div>
-          <button className="trainer-btn" onClick={nextTrainer}><i className="fi fi-bs-angle-right"></i></button>
+          
           </div>
 
           <div className="tr-fon2" data-aos="fade-up" data-aos-duration="1500">
-          <button className="trainer-btn-phone" onClick={previousTrainer}><i className="fi fi-bs-angle-left"></i></button>
-            <img className="trainer-img"  src={`${image}.png`} alt="trainer"/>
-            <button className="trainer-btn-phone" onClick={nextTrainer}><i className="fi fi-bs-angle-right"></i></button>
+          <button className="trainer-btn-phone1" onClick={previousTrainer}><i className="fi fi-bs-angle-left"></i></button>
+          {
+              dataCarousel.map((obect, index) => {
+                const {image} = obect
+                return (
+                  <img className={trainer === index ? "trainer-img2" : "trainer-img"} src={`${image}.png`} alt="trainer" key={index}/>
+                )
+              })
+            }
+            <button className="trainer-btn-phone2" onClick={nextTrainer}><i className="fi fi-bs-angle-right"></i></button>
           </div>
   
         <div>
         <div className='trainer-info' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-        {/* <p className='titren2' >Team</p>
-        <p className='titren' >Our Instructors</p> */}
+          <div>
+            <p className='trainers-point-tittle1' id='training'>Team</p>
+            <h2 className='trainers-point-tittle2' id='product'>Meet Our Experiense Trainers</h2>
+          </div>
+            <div>
             <p className="trainer-name">{name}</p>
             <p className="trainer-exp">Experience: <span className="trainer-span">{experience}.</span></p>
             <p className="trainer-exp">Direction: <span className="trainer-span">{program}.</span></p>
@@ -58,6 +77,7 @@ function Carousel() {
             <div className='tren-check'>
               <i className='fas	fa-check-circle'></i>
               <p>Certified Trainer</p>
+            </div>
             </div>
         </div>
         </div>

@@ -6,11 +6,14 @@ import {
   Link
 } from "react-router-dom"
 import Home from './Home';
-import logo from './logo3.png'
+import logo from './Images/logo3.png'
 import Contacts from './Contacts';
 import About from './About';
 import { useState } from 'react';
 import { HashLink } from 'react-router-hash-link';
+import Login from './Auth/Login';
+import Logout from './Auth/Logout';
+import Account from './Auth/Account';
 
 
 const Navbar = () => {
@@ -46,12 +49,22 @@ const Navbar = () => {
             <Link to="/about" className='link'>About Us</Link>
             <Link to="/contacts" className='link link-contacts'>Contacts</Link>
           </div>
-          <button className='btnSign' data-aos="fade-down" data-aos-duration="1500" data-aos-once="false">Sign in</button>
-          <button onClick={() => burgerActiv()} className='burger' data-aos="fade-down" data-aos-duration="1500" data-aos-once="false"><i className='fas	fa-bars'></i></button>
+          
+          <div className='box_navbarAuth' data-aos="fade-down" data-aos-duration="1500" data-aos-once="false">
+            <Login/>
+            <Logout/>
+          </div>
+          <button onClick={() => burgerActiv()} className='burger' data-aos="fade-down" data-aos-duration="1500" data-aos-once="false"><i className='fi fi-rr-menu-burger'></i></button>
         </nav>
 
         <div className={burger ? 'container-burger-activ' : 'container-burger'} >
-            <button className='btn-close-burger' onClick={() => burgerActiv()}><i className='fas	fa-times'></i></button>
+          
+            <button className='btn-close-burger' onClick={() => burgerActiv()}><i className='fi fi-rr-cross-small'></i></button>
+            <div className='box_navbarBurgerAuth'>
+            <Account/>
+            <Login/>
+            <Logout/>
+            </div>
             <Link  onClick={() => burgerActiv()}  to="/" className='link-burger link-burger1'>Home</Link>
             <HashLink className='link-burger link-burger1' smooth to="/#product">Programm</HashLink>
             <Link  onClick={() => burgerActiv()} to="/about" className='link-burger'>About Us</Link>

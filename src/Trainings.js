@@ -1,36 +1,56 @@
 import { useState } from 'react';
-import lotus from './lotus.png';
+import lotus from './Images/lotus.png';
+import data from './data';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import { EachProduct } from './EachProduct';
+
 AOS.init();
 
 
 
 const Trainings = ({training}) => {
 
-    const [showText, setShowText] = useState(false);
+    const [eachProduct, setEachProduct] = useState(data)
+    const [learnMoreBtn, setLearnMoreBtn] = useState(false);
 
-    const showTextClick = (element) => {
-        element.showMore = !element.showMore;
-        setShowText(!showText)
+    const learnMore = (id) => {
+        setLearnMoreBtn(true);
+        const selectedItem = data.filter(item => item.id === id);
+        setEachProduct(selectedItem);
+    }
+
+    const lernMoreClose = () => {
+        setLearnMoreBtn(false);
     }
 
     return (
         <div className="container-product">
             {training.map(element => {
-                const {id, image, name, text, showMore} = element;
+                const {id, image, name, text} = element;
                 return (
-                    <div className="product-card" style={{ backgroundImage: `url(${image}.jpg)` } } key={id} data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                    <div className="product-card" onClick={() => learnMore(id)} style={{ backgroundImage: `url(${image}.jpg)` } } key={id} data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                        <div className='productCard-box'>
+                            <p className='product-header'>{name}</p>
+                        <p className="product-text">{text}</p> 
+                        <button className='productCard_btn'>Read More</button>
                         <div className='shapedividers_com-3652'></div>
+                        
                         <div className="box-nameAndText ">
-                            {/* <div className="circle"></div> */}
                             <p className="product-name">{name}</p>
                             <img className='lotus-img' src={lotus} width="30px" alt='lotus'/>
-                            <p className="product-text">{showMore ? text.substring(0, 80) + "...": text } <button className='more-btn' onClick={() => showTextClick(element)}>{showMore ? 'show more': 'show less'}</button></p>
+                            
+                        </div>
                         </div>
                     </div>
                 )
             })}
+
+            <EachProduct
+            eachProduct={eachProduct}
+            learnMoreBtn={learnMoreBtn}
+            learnMore={learnMore}
+            lernMoreClose ={lernMoreClose}/>
         </div>
     )
 }

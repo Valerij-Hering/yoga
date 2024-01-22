@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@200;300;400;500;600;700&display=swap');
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+  .list li {
+    margin: 0.75rem 0;
+  }
+  
+  .info {
+    color: rgb(0, 49, 0);
+    
+    padding: 1rem;
+    border-radius: 4px;
+  }
+  
+  .accordion {
+    margin-right: 95px;
+    width: 500px;
+    background-color: white;
+    margin-top: 70px;
+
+  }
+  
+  /* .item {
+    
+  } */
+
+  
+  .itemBtn {
+    width: 100%;
+    display: flex;
+  align-items: center;
+    text-align: start;
+  height: 48px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  border-bottom: #e5effb 2px solid;
+  background-size: cover;
+  margin-bottom: 10px;
+  color: #1f2335;
+  font-size: 17px;
+  font-weight: 600;
+  }
+  
+  /* .itemBtn:hover {
+    
+  } */
+
+  
+  .itemBtnExpanded {
+   
+
+  }
+
+  
+  .itemContent {
+    transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+    color: #565e73c9;
+    font-size: 15px;
+  }
+  
+  .itemPanel {
+    padding: 1rem 0;
+  }
+  
+  .chevron {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 25px;
+    margin-left: auto;
+    transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+    color: white;
+    font-weight: 400;
+    background-color: #bed6f0;
+    padding: 0 1px;
+    padding-top: 1px;
+  }
+
+  .chevron::before {
+    content: '+';
+  }
+  
+  .itemBtnExpanded .chevron {
+    background-color: #725efe;
+    padding: 0 1px;
+    padding-top: 1px;
+    border-radius: 50%;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .itemBtnExpanded .chevron::before {
+    content: '-';
+  }
+
+
+  @media all and (max-width: 1030px) {
+
+    .accordion {
+      width: 90%;
+      max-width: 600px;
+      margin-right: 0px;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+  }
