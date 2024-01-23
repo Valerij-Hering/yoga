@@ -1995,7 +1995,7 @@ margin-bottom: 300px;
   .eachProduct_box_icon {
     display: flex;
     flex-direction: column;
-    
+    width: 100px;
   }
 
   .eachProduct_icon__box_par {

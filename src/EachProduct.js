@@ -25,7 +25,7 @@ export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose}) => {
                                     <i className="fi fi-sr-calendar-clock"></i>
                                 </div>
                                 <div className='eachProduct_icon__box_par'>
-                                    <p className='eachProduct_icon_par1'>Classes</p>
+                                    <p className='eachProduct_icon_par1'>Number of Classes</p>
                                     <p className='eachProduct_icon_par2'>{eachProduct[0].textIcon1}</p>
                                 </div>
                             </div>
