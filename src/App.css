@@ -561,7 +561,7 @@ transition: .25s;
   border: white 1px solid;
   border-radius: 50px;
   opacity: 0;
-  transition: 0.5s;
+  transition: 0.3s;
   cursor: pointer;
 }
 
@@ -1569,6 +1569,174 @@ transition: .25s;
   font-weight: 300;
 }
 
+/* Blog ************************************************************************************************************************************* */
+
+.section_blog {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container-blog {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+  margin-top: 200px;
+  display: block;
+}
+
+.container-blog2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  margin: 10px auto;
+  position: relative;
+  margin-top: 200px;
+  display: none;
+}
+
+.card_blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+  border-radius: 33px;
+}
+
+.card_blog_img {
+  width: 95%;
+  max-width: 350px;
+  height: 250px;
+  border-radius: 25px;
+  box-shadow: 0 20px 25px -5px rgba(168, 187, 240, 0.128), 0 8px 10px -6px rgba(164, 183, 234, 0.103);
+  padding-left: 15px;
+}
+
+.card_blog_content {
+  text-align: justify;
+  margin-left: 40px;
+  padding: 0 15px;
+}
+
+.blog_content_header {
+  color: #132742;
+}
+
+.blog_content_par {
+  color: #637080;
+  margin: 20px 0;
+}
+
+.blog_content_btn {
+  margin-top: 10px;
+  width: 160px;
+  height: 50px;
+  font-size: 16px;
+  color: white;
+  background-color: #725efe;
+  border-radius: 50px;
+  transition: 0.3s;
+  cursor: pointer;
+  border: none;
+}
+
+/* EachBlog **************************************************************************************************************************************/
+
+.container_eachBlog {
+  margin: 100px auto;
+  width: 90%;
+  max-width: 960px;
+  margin-bottom: 200px;
+  display: none;
+}
+
+.container_eachBlog2 {
+  margin: 100px auto;
+  width: 90%;
+  max-width: 960px;
+
+  display: block;
+}
+
+.eachBlog_img {
+  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  border-radius: 30px;
+  margin-bottom: -80px;
+}
+
+.diveachBlog_img {
+  border-radius: 30px;
+  margin: 0 auto;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  
+}
+
+.eachBlog_box_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  width: 100%;
+  height: 100%;
+  color: white;
+  background-color: #13274293;
+  border-radius: 30px;
+
+}
+
+.eachHeader_par {
+  width: 80%;
+  text-align: center;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.eachHeader_header {
+  margin-bottom: 10px;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.eachBlog_content {
+  text-align: justify;
+  margin: 20px 0;
+  color: #637080;
+}
+
+.eachBlog_btnClose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 160px;
+  height: 50px;
+  font-size: 16px;
+  color: white;
+  background-color: #725efe;
+  border-radius: 50px;
+  transition: 0.3s;
+  cursor: pointer;
+  border: none;
+  margin-right: auto;
+}
+
+.eachBlog_btnClose_icon {
+  margin-top: 4px;
+  margin-right: 8px;
+
+}
 
 /* FOOTER ***************************************************************************************************************************************/
 
@@ -2110,6 +2278,47 @@ margin-bottom: 300px;
   }
   .btnSignPhone {
     display: block;
+  }
+
+  
+}
+
+@media all and (max-width: 860px) {
+  .card_blog {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    border: #52607e26 1px solid;
+
+
+  }
+  
+  .card_blog_img {
+    padding: 0;
+    max-width: 100%;
+    margin: 10px;
+    margin-bottom: 20px;
+    box-shadow: none;
+    border-radius: 25px;
+  }
+
+  .card_blog_content {
+    padding: 10px;
+    margin: 0;
+    
+  }
+
+  .card_blog {
+    padding: 0;
+    margin: 10px;
+    margin-bottom: 40px;
+  
+  }
+
+  .blog_content_btn {
+    margin-bottom: 5px;
+    width: 100%;
   }
 }
 

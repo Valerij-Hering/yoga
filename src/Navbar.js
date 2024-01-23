@@ -14,6 +14,7 @@ import { HashLink } from 'react-router-hash-link';
 import Login from './Auth/Login';
 import Logout from './Auth/Logout';
 import Account from './Auth/Account';
+import Blog from './Blog';
 
 
 const Navbar = () => {
@@ -48,6 +49,7 @@ const Navbar = () => {
             <HashLink className='link' smooth to="/#product">Programm</HashLink>
             <Link to="/about" className='link'>About Us</Link>
             <Link to="/contacts" className='link link-contacts'>Contacts</Link>
+            <Link to="/blog" className='link'>Blog</Link>
           </div>
           
           <div className='box_navbarAuth' data-aos="fade-down" data-aos-duration="1500" data-aos-once="false">
@@ -75,6 +77,7 @@ const Navbar = () => {
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/contacts" element={<Contacts/>} />
+          <Route path='/blog' element={<Blog/>}></Route>
         </Routes>
       </Router>
   );
