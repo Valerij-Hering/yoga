@@ -759,6 +759,7 @@ transition: .25s;
   flex-direction: column;
   overflow-y: auto;
   background: #ffffff;
+  padding-top: 50px;
 
 }
 
@@ -823,10 +824,12 @@ transition: .25s;
   margin: 0 10px;
 }
 
+
 .eachProduct_icon__box_par {
   margin-left: 15px;
 
 }
+
 
 .eachProduct_icon_par1 {
   color: #132742;
@@ -869,7 +872,6 @@ transition: .25s;
 
 .eachProduct_btnClose {
   margin-top: 5px;
-  background-color: #13274200;
   color: #132742de;
   border-radius: 50px;
   width: 110px;
@@ -877,13 +879,16 @@ transition: .25s;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: #edeef0 1px solid;
+  border: none;
   cursor: pointer;
+  transition: 0.3s;
+  background-color: #edeef0;
+    font-weight: 500;
   transition: 0.3s;
 }
 
 .eachProduct_btnClose:hover {
-  background-color: #edeef0;
+  background-color: #e3e4e5;
 }
 
 .eachProduct_btnClose_icon {
@@ -1978,7 +1983,7 @@ margin-bottom: 300px;
   .eachProduct_container_icon {
     display: flex;
     justify-content: space-between;
-    align-items: baseline
+    align-items: flex-start;
   }
 
   .box_eachProduct_img {
@@ -1990,6 +1995,7 @@ margin-bottom: 300px;
   .eachProduct_box_icon {
     display: flex;
     flex-direction: column;
+    
   }
 
   .eachProduct_icon__box_par {
@@ -2322,7 +2328,7 @@ margin-bottom: 300px;
   .tr-fon2 {
     border-radius: 25px;
     width: 95%;
-    
+    margin-top: 115px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -2345,6 +2351,7 @@ margin-bottom: 300px;
   .container-tarif {
     max-width: 300px;
   }
+
 }
 
 

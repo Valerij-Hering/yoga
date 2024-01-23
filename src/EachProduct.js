@@ -20,7 +20,7 @@ export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose}) => {
                         <h2 className="eachProduct_header">{eachProduct[0].header}</h2>
                         <p className="eachProduct_text">{eachProduct[0].text2}</p>
                         <div className='eachProduct_container_icon'>
-                            <div className='eachProduct_box_icon'>
+                            <div className='eachProduct_box_icon eachProduct_icon_left'>
                                 <div className='eachProduct_icon'>
                                     <i className="fi fi-sr-calendar-clock"></i>
                                 </div>
@@ -40,7 +40,7 @@ export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose}) => {
                                 </div>
                             </div>
 
-                            <div className='eachProduct_box_icon'>
+                            <div className='eachProduct_box_icon eachProduct_icon_right'>
                                 <div className='eachProduct_icon'>
                                     <i className="fi fi-sr-user eachProduct_icon"></i>
                                 </div>
