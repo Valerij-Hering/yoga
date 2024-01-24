@@ -882,6 +882,7 @@ transition: .25s;
   border: none;
   cursor: pointer;
   transition: 0.3s;
+  font-size: 14px;
   background-color: #edeef0;
     font-weight: 500;
   transition: 0.3s;
@@ -1614,6 +1615,7 @@ transition: .25s;
   border-radius: 25px;
   box-shadow: 0 20px 25px -5px rgba(168, 187, 240, 0.128), 0 8px 10px -6px rgba(164, 183, 234, 0.103);
   padding-left: 15px;
+  
 }
 
 .card_blog_content {
@@ -1668,6 +1670,7 @@ transition: .25s;
   height: 250px;
   border-radius: 30px;
   margin-bottom: -80px;
+  margin-top: 40px;
 }
 
 .diveachBlog_img {
@@ -1709,7 +1712,7 @@ transition: .25s;
 }
 
 .eachBlog_content {
-  text-align: justify;
+
   margin: 20px 0;
   color: #637080;
 }
@@ -1735,6 +1738,14 @@ transition: .25s;
 .eachBlog_btnClose_icon {
   margin-top: 4px;
   margin-right: 8px;
+
+}
+
+.eachBlog_content h3 {
+  color: #132742;
+}
+
+.eachBlog_content p {
 
 }
 

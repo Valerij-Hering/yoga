@@ -1,12 +1,12 @@
 import logo from './Images/logo3.png'
 
-export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose}) => {
+export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose, scrollToTop}) => {
     return (
         <div className={learnMoreBtn ? "container_eachProduct2" : "container_eachProduct"}>
             
             <div className="subcontainer_eachProduct">
                 <div className="eachProduct_btn_box">
-                <button className="eachProduct_btnClose" onClick={() => lernMoreClose()}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Home</button>
+                <button className="eachProduct_btnClose" onClick={() => {lernMoreClose(); scrollToTop()}}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Home</button>
                 <div className='container-logo'>
                     <img className='logo' src={logo} width="60px" alt='logo'/>
                     <p>yoga</p>

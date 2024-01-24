@@ -1,15 +1,11 @@
-import logo from './Images/logo3.png'
+
 
 export const EachBlog = ({eachBlog, learnMoreBlogBtn, lernMoreCloseBlog}) => {
 
     return (
         <div className={learnMoreBlogBtn ? "container_eachBlog2" :  "container_eachBlog"}>
             <div className="eachProduct_btn_box">
-                <button className="eachProduct_btnClose" onClick={() => lernMoreCloseBlog()}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Back</button>
-                <div className='container-logo'>
-                    <img className='logo' src={logo} width="60px" alt='logo'/>
-                    <p>yoga</p>
-                </div>
+                <button className="eachProduct_btnClose" onClick={() => window.location.reload()}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Back</button>
                 </div>
                 <img className='eachBlog_img' src={eachBlog[0].imgBlog} alt='blog'/>
                 <div>
@@ -22,7 +18,7 @@ export const EachBlog = ({eachBlog, learnMoreBlogBtn, lernMoreCloseBlog}) => {
                             </div>
                         )
                     })}
-                    <button  className="eachBlog_btnClose" onClick={() => lernMoreCloseBlog()}><i className="fi fi-rr-arrow-left eachBlog_btnClose_icon"></i> Go Back</button>
+                    <button  className="eachBlog_btnClose" onClick={() => window.location.reload()}><i className="fi fi-rr-arrow-left eachBlog_btnClose_icon"></i> Go Back</button>
                 </div>
         </div>
     )
