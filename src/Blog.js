@@ -10,7 +10,7 @@ AOS.init();
 
 const Blog = () => {
 
-    const [blog, setBlog] =  useState(dataBlog); 
+
 
     const [eachBlog, setEachBlog] = useState(dataBlog)
     const [learnMoreBlogBtn, setLearnMoreBlogBtn] = useState(false);
@@ -28,7 +28,7 @@ const Blog = () => {
     return (
         <div className='section_blog'>
             <div className={learnMoreBlogBtn === true ? "container-blog2" : "container-blog"}>
-            {blog.map(element => {
+            {eachBlog.map(element => {
                 const {id, imgBlog, name, text} = element;
                 return (
                     <div className='card_blog' key={id}>

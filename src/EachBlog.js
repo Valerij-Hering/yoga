@@ -2,7 +2,6 @@ import logo from './Images/logo3.png'
 
 export const EachBlog = ({eachBlog, learnMoreBlogBtn, lernMoreCloseBlog}) => {
 
-    console.log(eachBlog)
     return (
         <div className={learnMoreBlogBtn ? "container_eachBlog2" :  "container_eachBlog"}>
             <div className="eachProduct_btn_box">
@@ -12,7 +11,7 @@ export const EachBlog = ({eachBlog, learnMoreBlogBtn, lernMoreCloseBlog}) => {
                     <p>yoga</p>
                 </div>
                 </div>
-                <img className='eachBlog_img' src={eachBlog[0].imgBlog}/>
+                <img className='eachBlog_img' src={eachBlog[0].imgBlog} alt='blog'/>
                 <div>
                     <p className='travel-point-tittle1' id='training' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">{eachBlog[0].name2}</p>
                     <h2 className='travel-point-tittle2' id='product' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">{eachBlog[0].name}</h2>
