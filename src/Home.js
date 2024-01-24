@@ -16,7 +16,6 @@ import woman from './Images/woman.png';
 import Accordions from './Accordions';
 import ContactForm from './Feedback';
 import { Prices } from './Prices';
-import dataBlog from './dataBlog';
 AOS.init();
 
 
