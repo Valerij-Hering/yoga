@@ -23,6 +23,7 @@ const Blog = () => {
 
     const lernMoreCloseBlog = () => {
         setLearnMoreBlogBtn(false);
+        window.location.reload()
     }
 
     return (
