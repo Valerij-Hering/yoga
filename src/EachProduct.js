@@ -8,7 +8,7 @@ export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose, scrollToT
             <br/>
                 <div className="eachProduct_btn_box" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     
-                <button className="eachProduct_btnClose" onClick={() => lernMoreClose()}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Home</button>
+                <button className="eachProduct_btnClose" onClick={() => lernMoreClose()}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Back</button>
                 <div className='container-logo'>
                     <img className='logo' src={logo} width="60px" alt='logo'/>
                     <p>yoga</p>
