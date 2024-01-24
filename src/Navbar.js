@@ -48,8 +48,9 @@ const Navbar = () => {
             <Link to="/" className='link' >Home</Link>
             <HashLink className='link' smooth to="/#product">Programm</HashLink>
             <Link to="/about" className='link'>About Us</Link>
-            <Link to="/contacts" className='link link-contacts'>Contacts</Link>
             <Link to="/blog" className='link'>Blog</Link>
+            <Link to="/contacts" className='link link-contacts'>Contacts</Link>
+            
           </div>
           
           <div className='box_navbarAuth' data-aos="fade-down" data-aos-duration="1500" data-aos-once="false">
@@ -70,7 +71,9 @@ const Navbar = () => {
             <Link  onClick={() => burgerActiv()}  to="/" className='link-burger link-burger1'>Home</Link>
             <HashLink className='link-burger link-burger1' smooth to="/#product">Programm</HashLink>
             <Link  onClick={() => burgerActiv()} to="/about" className='link-burger'>About Us</Link>
+            <Link onClick={() => burgerActiv()} to="/blog" className='link-burger'>Blog</Link>
             <Link  onClick={() => burgerActiv()} to="/contacts" className='link-burger'>Contacts</Link>
+            
         </div>
      
         <Routes>
