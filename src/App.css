@@ -151,7 +151,6 @@ body {
 }
 
 .btnSign {
-
   cursor: pointer;
   font-size: 17px;
   width: 130px;
@@ -233,7 +232,7 @@ body {
   font-size: 16px;
   background-color: #6765f0;
   color: white;
-  border-radius: 10px;
+  border-radius: 7px;
   margin-bottom: 10px;
   cursor: pointer;
   display: none;
@@ -759,7 +758,6 @@ transition: .25s;
   flex-direction: column;
   overflow-y: auto;
   background: #ffffff;
-  padding-top: 50px;
 
 }
 
@@ -1605,7 +1603,7 @@ transition: .25s;
   align-items: center;
   justify-content: center;
   margin: 100px 0;
-  border-radius: 33px;
+  border-radius: 16px;
 }
 
 .card_blog_img {
@@ -1613,7 +1611,7 @@ transition: .25s;
   width: 95%;
   max-width: 350px;
   height: 250px;
-  border-radius: 25px;
+  border-radius: 10px;
   box-shadow: 0 20px 25px -5px rgba(168, 187, 240, 0.128), 0 8px 10px -6px rgba(164, 183, 234, 0.103);
   margin-left: 15px;
   
@@ -1641,10 +1639,14 @@ transition: .25s;
   font-size: 16px;
   color: white;
   background-color: #725efe;
-  border-radius: 50px;
+  border-radius: 10px;
   transition: 0.3s;
   cursor: pointer;
   border: none;
+}
+
+.blog_content_btn:hover {
+  background-color: #604aeb;
 }
 
 /* EachBlog **************************************************************************************************************************************/
@@ -1729,12 +1731,18 @@ transition: .25s;
   font-size: 16px;
   color: white;
   background-color: #725efe;
-  border-radius: 50px;
+  border-radius: 10px;
   transition: 0.3s;
   cursor: pointer;
   border: none;
   margin-right: auto;
+  transition: 0.3s;
 }
+
+.eachBlog_btnClose:hover {
+  background-color: #604aeb;
+}
+
 
 .eachBlog_btnClose_icon {
   margin-top: 4px;
@@ -2330,7 +2338,7 @@ margin-bottom: 300px;
     margin: 10px;
     margin-bottom: 20px;
     box-shadow: none;
-    border-radius: 25px;
+    border-radius: 10px;
   }
 
   .card_blog_content {
