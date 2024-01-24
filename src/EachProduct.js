@@ -55,7 +55,7 @@ export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose, scrollToT
                             
                         </div>
                     </div>
-                    <button  className="eachProduct_btnClose2" onClick={() => lernMoreClose()}  data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><i className="fi fi-rr-arrow-left eachBlog_btnClose_icon"></i> Go Back</button>
+                    <button  className="eachProduct_btnClose2" onClick={() => lernMoreClose()}  data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><i className="fi fi-rr-arrow-left eachProduct_btnClose2_icon"></i> Go Back</button>
                 </div>
             </div>
         </div>

@@ -567,7 +567,7 @@ transition: .25s;
 .productCard_btn:hover {
   color: #132742;
   background-color: rgba(255, 255, 255, 0.788);
-  transition: 03.s;
+  transition: 0.3s;
 }
 
 .product-card:hover .productCard-box{
@@ -899,9 +899,6 @@ transition: .25s;
 }
 
 .eachProduct_btnClose2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
   margin-top: 0px;
   width: 160px;
@@ -913,17 +910,20 @@ transition: .25s;
   transition: 0.3s;
   cursor: pointer;
   border: none;
-  margin-right: auto;
-  transition: 0.3s;
   margin-bottom: 150px;
   display: none;
 }
 
 .eachProduct_btnClose2:hover {
   background-color: #604aeb;
+  transition: 0.3s;
 }
 
+.eachProduct_btnClose2_icon {
+  margin-top: 5px;
+  margin-right: 8px;
 
+}
 
 /* Video *****************************************/
 
