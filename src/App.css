@@ -1604,17 +1604,18 @@ transition: .25s;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 50px 0;
+  margin: 100px 0;
   border-radius: 33px;
 }
 
 .card_blog_img {
+  object-fit: cover;
   width: 95%;
   max-width: 350px;
   height: 250px;
   border-radius: 25px;
   box-shadow: 0 20px 25px -5px rgba(168, 187, 240, 0.128), 0 8px 10px -6px rgba(164, 183, 234, 0.103);
-  padding-left: 15px;
+  margin-left: 15px;
   
 }
 
@@ -1714,7 +1715,7 @@ transition: .25s;
 .eachBlog_content {
 
   margin: 20px 0;
-  color: #637080;
+  color: #132742;
 }
 
 .eachBlog_btnClose {
@@ -1749,12 +1750,21 @@ transition: .25s;
 
 }
 
-.img_blog_content {
+.img_blog_content_floatLeft {
   float: left;
   margin-right: 20px;
   margin-bottom: 20px;
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
+  border-radius: 3px;
+}
+
+.img_blog_content_floatRight {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 400px;
   border-radius: 3px;
 }
 

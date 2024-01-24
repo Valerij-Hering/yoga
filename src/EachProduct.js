@@ -5,7 +5,7 @@ export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose, scrollToT
         <div className={learnMoreBtn ? "container_eachProduct2" : "container_eachProduct"}>
             
             <div className="subcontainer_eachProduct">
-                <div className="eachProduct_btn_box">
+                <div className="eachProduct_btn_box" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                 <button className="eachProduct_btnClose" onClick={() => {lernMoreClose(); scrollToTop()}}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Home</button>
                 <div className='container-logo'>
                     <img className='logo' src={logo} width="60px" alt='logo'/>
@@ -14,8 +14,8 @@ export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose, scrollToT
                 </div>
                 
                 <div className="box_eachProduct_img">
-                    <img className="eachProduct_img1" src={eachProduct[0].image1} alt='product'/>
-                    <div className="box_eachProduct_describing">
+                    <img className="eachProduct_img1" src={eachProduct[0].image1} alt='product' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"/>
+                    <div className="box_eachProduct_describing" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                         <p className='eachProduct_header_par'>Type of Yoga</p>
                         <h2 className="eachProduct_header">{eachProduct[0].header}</h2>
                         <p className="eachProduct_text">{eachProduct[0].text2}</p>

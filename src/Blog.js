@@ -34,7 +34,7 @@ const Blog = () => {
             {eachBlog.map(element => {
                 const {id, imgBlog, name, text} = element;
                 return (
-                    <div className='card_blog' key={id}>
+                    <div className='card_blog' key={id} data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                         <img className='card_blog_img' src={imgBlog} alt='blog'/>
                         <div className='card_blog_content'>
                             <h2 className='blog_content_header'>{name}</h2>
