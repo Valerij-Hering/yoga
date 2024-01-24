@@ -17,6 +17,7 @@ import Account from './Auth/Account';
 import Blog from './Blog';
 
 
+
 const Navbar = () => {
     
     const [burger, setBurger] = useState(false);
@@ -36,6 +37,11 @@ const Navbar = () => {
         }
     };
 
+    const Scroll = () => {
+      window.scrollTo(0, 0)
+      
+  }
+
 
     window.addEventListener('scroll', toggleVisible);
   return (
@@ -46,11 +52,11 @@ const Navbar = () => {
             <p>yoga</p>
           </div>
           <div data-aos="fade-down" data-aos-duration="1500" data-aos-once="false">
-            <Link to="/" className='link' >Home</Link>
+            <Link onClick={Scroll} to="/" className='link'>Home</Link>
             <HashLink className='link' smooth to="/#product">Programm</HashLink>
-            <Link to="/about" className='link'>About Us</Link>
-            <Link to="/blog" className='link'>Blog</Link>
-            <Link to="/contacts" className='link link-contacts'>Contacts</Link>
+            <Link onClick={Scroll} to="/about" className='link'>About Us</Link>
+            <Link onClick={Scroll} to="/blog" className='link'>Blog</Link>
+            <Link onClick={Scroll} to="/contacts" className='link link-contacts'>Contacts</Link>
             
           </div>
           
@@ -69,16 +75,16 @@ const Navbar = () => {
             <Login/>
             <Logout/>
             </div>
-            <Link  onClick={() => burgerActiv()}  to="/" className='link-burger link-burger1'>Home</Link>
+            <Link  onClick={() => {burgerActiv(); Scroll()}}  to="/" className='link-burger link-burger1'>Home</Link>
             <HashLink className='link-burger link-burger1' smooth to="/#product">Programm</HashLink>
-            <Link  onClick={() => burgerActiv()} to="/about" className='link-burger'>About Us</Link>
-            <Link onClick={() => burgerActiv()} to="/blog" className='link-burger'>Blog</Link>
-            <Link  onClick={() => burgerActiv()} to="/contacts" className='link-burger'>Contacts</Link>
+            <Link  onClick={() => {burgerActiv(); Scroll()}} to="/about" className='link-burger'>About Us</Link>
+            <Link onClick={() => {burgerActiv(); Scroll()}} to="/blog" className='link-burger'>Blog</Link>
+            <Link  onClick={() => {burgerActiv(); Scroll()}} to="/contacts" className='link-burger'>Contacts</Link>
             
         </div>
      
         <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>} />
           <Route path="/contacts" element={<Contacts/>} />
           <Route path='/blog' element={<Blog/>}></Route>

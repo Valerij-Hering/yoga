@@ -35,6 +35,8 @@ function Home() {
         setPaused(!paused)
     }
 
+
+
     return (
         <div className='container-home'>
             <div className='home-header shapedividers_com-900'>

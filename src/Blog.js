@@ -39,7 +39,7 @@ const Blog = () => {
                         <div className='card_blog_content'>
                             <h2 className='blog_content_header'>{name}</h2>
                             <p className='blog_content_par'>{text}</p>
-                            <button className='blog_content_btn' onClick={() => learnMoreBlog(id)}>Read More</button>
+                            <button className='blog_content_btn' onClick={() => {learnMoreBlog(id); window.scrollTo(0, 0)}}>Read More</button>
                         </div>
                     </div>
                 )
@@ -49,7 +49,6 @@ const Blog = () => {
             eachBlog={eachBlog}
             learnMoreBlogBtn={learnMoreBlogBtn}
             learnMoreBlog={learnMoreBlog}
-            
             chosenBlogs={chosenBlogs}/>
         </div>
     )

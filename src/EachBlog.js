@@ -5,7 +5,7 @@ export const EachBlog = ({eachBlog, learnMoreBlogBtn, chosenBlogs}) => {
     return (
         <div className={learnMoreBlogBtn ? "container_eachBlog2" :  "container_eachBlog"}>
             <div className="eachProduct_btn_box" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                <button className="eachProduct_btnClose" onClick={() => chosenBlogs('blog')}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Back</button>
+                <button className="eachProduct_btnClose" onClick={() => {chosenBlogs('blog'); window.scrollTo(0, 0)}}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Back</button>
                 </div>
                 <img className='eachBlog_img' src={eachBlog[0].imgBlog} alt='blog' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"/>
                 <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
@@ -18,7 +18,7 @@ export const EachBlog = ({eachBlog, learnMoreBlogBtn, chosenBlogs}) => {
                             </div>
                         )
                     })}
-                    <button  className="eachBlog_btnClose" onClick={() => chosenBlogs('blog')} data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><i className="fi fi-rr-arrow-left eachBlog_btnClose_icon"></i> Go Back</button>
+                    <button  className="eachBlog_btnClose" onClick={() => {chosenBlogs('blog'); window.scrollTo(0, 0)}} data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><i className="fi fi-rr-arrow-left eachBlog_btnClose_icon"></i> Go Back</button>
                 </div>
         </div>
     )
