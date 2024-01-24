@@ -8,7 +8,7 @@ AOS.init();
 
 
 
-const Blog = () => {
+const Blog = ({closeWindow}) => {
 
 
 
@@ -23,7 +23,7 @@ const Blog = () => {
 
     const lernMoreCloseBlog = () => {
         setLearnMoreBlogBtn(false);
-        window.location.reload()
+        closeWindow()
     }
 
     return (

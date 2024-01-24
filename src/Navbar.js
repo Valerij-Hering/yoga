@@ -36,6 +36,10 @@ const Navbar = () => {
         }
     };
 
+    const closeWindow = () => {
+      window.location.reload()
+    }
+
     window.addEventListener('scroll', toggleVisible);
   return (
     <Router>
@@ -80,7 +84,7 @@ const Navbar = () => {
           <Route path="/" element={<Home/>} />
           <Route path="/about" element={<About/>} />
           <Route path="/contacts" element={<Contacts/>} />
-          <Route path='/blog' element={<Blog/>}></Route>
+          <Route path='/blog' element={<Blog closeWindow={closeWindow}/>}></Route>
         </Routes>
       </Router>
   );
