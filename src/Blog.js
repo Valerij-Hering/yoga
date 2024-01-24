@@ -8,23 +8,25 @@ AOS.init();
 
 
 
-const Blog = ({closeWindow}) => {
+const Blog = () => {
 
-
+    
 
     const [eachBlog, setEachBlog] = useState(dataBlog)
     const [learnMoreBlogBtn, setLearnMoreBlogBtn] = useState(false);
 
     const learnMoreBlog = (id) => {
         setLearnMoreBlogBtn(true);
-        const selectedItem = dataBlog.filter(item => item.id === id);
+        const selectedItem = dataBlog.filter(element => element.id === id);
         setEachBlog(selectedItem);
     }
 
-    const lernMoreCloseBlog = () => {
+    const chosenBlogs = (searchTerm) => {
+        const newBlogs = dataBlog.filter(element => element.searchTerm === searchTerm);
+        setEachBlog(newBlogs);
         setLearnMoreBlogBtn(false);
-        closeWindow()
     }
+
 
     return (
         <div className='section_blog'>
@@ -47,7 +49,8 @@ const Blog = ({closeWindow}) => {
             eachBlog={eachBlog}
             learnMoreBlogBtn={learnMoreBlogBtn}
             learnMoreBlog={learnMoreBlog}
-            lernMoreCloseBlog={lernMoreCloseBlog}/>
+            
+            chosenBlogs={chosenBlogs}/>
         </div>
     )
 }

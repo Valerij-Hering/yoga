@@ -16,6 +16,7 @@ import woman from './Images/woman.png';
 import Accordions from './Accordions';
 import ContactForm from './Feedback';
 import { Prices } from './Prices';
+import dataBlog from './dataBlog';
 AOS.init();
 
 
@@ -26,6 +27,7 @@ function Home() {
         const newTrainings = data.filter(element => element.searchTerm === searchTerm);
         setTraining(newTrainings);
     }
+
 
     const refVideo = useRef();
     const [paused, setPaused] = useState(false);

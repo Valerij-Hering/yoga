@@ -12,6 +12,7 @@ const dataBlog = [
 
     {
         id: '1',
+        searchTerm: 'blog',
         name: 'Kumbhaka',
         name2: 'Type of Yoga',
         imgBlog: imgBlog1,
@@ -41,6 +42,7 @@ const dataBlog = [
 
     {
         id: '2',
+        searchTerm: 'blog',
         name: 'Meditation: where to start',
         name2: 'Type of Yoga',
         imgBlog: imgBlog2,
@@ -72,6 +74,7 @@ const dataBlog = [
 
     {
         id: '3',
+        searchTerm: 'blog',
         name: 'Shavasana is a pose for deep relaxation',
         name2: 'Type of Yoga',
         imgBlog: imgBlog3,
@@ -100,6 +103,7 @@ const dataBlog = [
 
     {
         id: '4',
+        searchTerm: 'blog',
         name: 'Yoga practice and the phases of the female cycle',
         name2: 'Healthy yoga',
         imgBlog: imgBlog4,
@@ -122,6 +126,7 @@ const dataBlog = [
 
     {
         id: '5',
+        searchTerm: 'blog',
         name: 'Carnation: purpose and effect of practice',
         name2: 'Healthy yoga',
         imgBlog: imgBlog5,
@@ -149,6 +154,7 @@ const dataBlog = [
 
     {
         id: '6',
+        searchTerm: 'blog',
         name: 'Yoga nidra - effectiveness and technique',
         imgBlog: imgBlog6,
         text: "What is yoga nidra and how to practice it properly.",

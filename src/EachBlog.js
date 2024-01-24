@@ -1,11 +1,11 @@
 
 
-export const EachBlog = ({eachBlog, learnMoreBlogBtn, lernMoreCloseBlog}) => {
+export const EachBlog = ({eachBlog, learnMoreBlogBtn, chosenBlogs}) => {
 
     return (
         <div className={learnMoreBlogBtn ? "container_eachBlog2" :  "container_eachBlog"}>
             <div className="eachProduct_btn_box">
-                <button className="eachProduct_btnClose" onClick={() => lernMoreCloseBlog()}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Back</button>
+                <button className="eachProduct_btnClose" onClick={() => chosenBlogs('blog')}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Back</button>
                 </div>
                 <img className='eachBlog_img' src={eachBlog[0].imgBlog} alt='blog'/>
                 <div>
@@ -14,11 +14,11 @@ export const EachBlog = ({eachBlog, learnMoreBlogBtn, lernMoreCloseBlog}) => {
                     {eachBlog[0].text2.map((item, index) => {
                         return (
                             <div className="eachBlog_content" key={index}>
-                                <p>{item.p}</p>
+                                {item.p}
                             </div>
                         )
                     })}
-                    <button  className="eachBlog_btnClose" onClick={() => lernMoreCloseBlog()}><i className="fi fi-rr-arrow-left eachBlog_btnClose_icon"></i> Go Back</button>
+                    <button  className="eachBlog_btnClose" onClick={() => chosenBlogs('blog')}><i className="fi fi-rr-arrow-left eachBlog_btnClose_icon"></i> Go Back</button>
                 </div>
         </div>
     )
