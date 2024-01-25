@@ -11,8 +11,10 @@ import imgCont3 from './Images/blog_cont_img3.webp'
 import imgCont4 from './Images/blog-content-img4.jpg'
 import imgCont5 from './Images/blog-content-img5.jpg'
 import imgCont6 from './Images/blog_cont_img6.webp'
-import imgCont7 from './Images/blog_cont_img7.webp'
+import imgCont7 from './Images/blogImage7.webp'
 import imgCont8 from './Images/blog_cont_img8.webp'
+import imgCont9 from './Images/blog_cont_img9.webp'
+
 
 
 const dataBlog = [
@@ -232,6 +234,61 @@ const dataBlog = [
             {p: <p>In modern conditions, when nidra is usually practiced in groups, it is often impossible to take into account the peculiarities of everyone’s perception or to prepare a separate yoga nidra practice for beginners, so the leader selects a relatively universal text that contains both visual images and instructions for managing attention in an average proportion. Thus, online yoga nidra is no less effective than in a group.</p>},
         ]
     },
+
+    {
+        id: '7',
+        searchTerm: 'blog',
+        name: 'Mantra OM',
+        name2: 'Type of Yoga',
+        imgBlog: imgCont7,
+        text: "The purpose and effect of mantras in yoga practice, the impact and technique of performing the mantra OM / AUM.",
+        text2: [
+            {p: <p>The mantra OM or AUM is the most famous mantra and is often chanted in yoga classes. What sacred meaning does the OM mantra have and what effect does this sound vibration create?</p>},
+            {p: <h2>How do mantras work?</h2>},
+            {p: <br/>},
+            {p: <p>Translated from Sanskrit, “man” means “mind” and “tra” means freedom. Thus, mantra is the liberation of the mind through sound. However, the effect of the mantra is not limited to the mental level.</p>},
+            {p: <p><b>At the level of consciousness</b></p>},
+            {p: <p>It is believed that mantras store potential energy, which manifests itself through sound. By working with a mantra, we release this energy and tune into the vibrations that set the tone for our own “sound” and influence our state of consciousness.</p>},
+            {p: <p>After you chant the OM mantra just three times, you will notice how your mind calms down and your attention switches from external stimuli to internal processes.</p>},
+            {p: <p>Therefore, it is useful to begin and end a yoga practice with a mantra. The mantra as a key allows you to initiate the process of transition to a transcendental state at the beginning of practice, and at the end - to capture the achieved result and switch to worldly affairs in an altered state of consciousness.</p>},
+            {p: <p><b>At the level of the physical body and psychosomatics</b></p>},
+            {p: <p>Measured singing in a comfortable position with a straight back trains the respiratory system, and with regular repetition it helps to increase the excursion of the diaphragm. It is important to concentrate on extracting sound from the lower abdomen and smoothly leading it from bottom to top along the spinal column.</p>},
+            {p: <p>Mantropenia can also work on the principle of sound therapy: measured singing of vowels helps relieve tension in the throat and relax the vocal cords. With regular chanting of mantras, your voice can change: it becomes smoother, deeper, richer in modulation.</p>},
+            {p: <p>If you are very familiar with the feeling of a lump in the throat, have difficulty expressing emotions or needs, you often suffer from sore throats, laryngitis, etc., chanting mantras will have a good preventive effect: the less tension in the throat, the better the blood and lymph flow, and This means that the immune system will be much more effective in dealing with pathogens on the mucous membranes of the throat.</p>},
+            {p: <p><b>At the nervous system level</b></p>},
+            {p: <p>The functioning of the nervous system, in addition to hormones and neurotransmitters, is regulated by neuropeptides. This is the least studied group of compounds, which plays an important role in the regulation of eating and sexual behavior, controls circadian rhythms, affects the immune system and is involved in maintaining homeostasis (internal balance).</p>},
+            {p: <p>Neuropeptides, among other things, are involved in the creation of new neural connections. From a yogic perspective, increased neuropeptide activity is experienced as “mind clearing” or “enlightenment.” New neural connections form new neural networks that directly affect a person’s cognitive abilities, change his picture of the world and reveal his creative potential. It is as if a person reads more information from everyday situations and objects and thereby deepens the perception of reality.</p>},
+            {p: <p>Scientists have found that repeating mantras increases neuropeptide activity and promotes the creation of new neural connections. Therefore, the idea that mantras can “open up new worlds” is not without a neurophysiological basis.</p>},
+            {p: <p><b>At the level of the subtle body</b></p>},
+            {p: <p>When you throw a stone into the calm surface of a lake, it creates circles. Similarly, with constant repetition of a mantra, the power of sound expands in the lake of the mind and penetrates into every cell of the body, thereby purifying the physical, mental and pranic body. Thanks to this ability of mantras to influence our condition, mantrotherapy is widely used in Ayurveda, the ancient Indian science of a healthy lifestyle. It is believed that mantras can influence the flow of prana in the body, stimulate marmas (important energy points) and have a beneficial effect on the chakras. This effect of mantras not only balances the psychoenergetic state, but also creates a protective shell on the pranic, and therefore on the mental level.</p>},
+            {p: <p>Each mantra can be practiced separately and recited repeatedly for a long time, then it will be the practice of mantra yoga.</p>},
+            {p: <p>To fully experience the effect of mantras, it is good to have at least a rough idea of ​​the meaning of the words and sounds that you pronounce, and, of course, understand the purpose and pronunciations. But even without knowledge of Sanskrit, you seem to be imbued with the meaning of each word, completely merging with it.</p>},
+            {p: <p>If you still find it difficult to choose and don’t know which mantra is right for you, start your practice with the universal mantra OM and see for yourself its effectiveness.</p>},
+            {p: <img className='img_blog_content_floatLeft' src={imgCont9} alt="blog"/>},
+            {p: <h2>Mantra OM / AUM: meaning</h2>},
+            {p: <br/>},
+            {p: <p>The Sanskrit word OM or more accurately AUM is considered sacred in many religions and traditions. Thus, in Hinduism it is generally accepted that it was with this vibration that the universe began. In Buddhism, this sacred fusion of sounds is believed to be the key to the liberation of consciousness.</p>},
+            {p: <p>The Sanskrit symbol AUM is made up of three elements: two letters and an image of a crescent moon with a dot on top ॐ. This symbol can often be found both in temples and in places where yoga is practiced, without connection with any religion.</p>},
+            {p: <h2>How to chant the OM/AUM mantra correctly</h2>},
+            {p: <br/>},
+            {p: <p>In ancient descriptions and manuals for the practice of yoga, many metaphors and figurative descriptions are given that clarify how the AUM mantra should sound: “the sound should flow slowly and continuously like a stream of oil”, “ring like the resonating hum of a bell”, “the sound should be soft and even like the buzzing of a bee."</p>},
+            {p: <p>Here are more specific recommendations on the technique of performing the AUM mantra:</p>},
+            {p: <p><b>1.</b> Start pronouncing the sound “A” from the lower abdomen. The sound of AUM originates at the base of the spine and rises to the very top of the head - this is how you need to visualize the movement of the sound at the moment of its pronunciation.</p>},
+            {p: <p><b>2.</b> The sound A barely noticeably flows into the sound U somewhere in the region of the heart, but do not try to specifically pronounce U - the change in overtone occurs naturally.</p>},
+            {p: <p><b>3.</b> When the sound reaches the larynx, close your lips and it will sound like M. Consciously direct the sound higher, through the area between the eyebrows and release it through the crown.</p>},
+            {p: <p><b>4.</b> The mantra should sound smooth, soft, continuous and very natural. At first, the voice may tremble, the tone may change, and breathing may be interrupted. However, over time and with regular practice, everything will level out and you (and people around you) will notice that your voice has become calmer and the timbre of your voice is more pleasant.</p>},
+            {p: <p>Common mistakes:</p>},
+            {p: <p>- mechanical execution of a mantra (a person is busy with his thoughts and does not work with sound from within)</p>},
+            {p: <p>- contraction of the abdominal muscles in the last seconds (when the air is running out, just finish, no need to squeeze out the sound and strain the abdominal muscles)</p>},
+            {p: <p>- facial muscle tension (make sure you are not wincing or tense your facial muscles)</p>},
+            {p: <p>- incorrect tonality (too high a tone) and excessive intensity (the sound of AUM is pronounced in a low tone, without unnecessary tension)</p>},
+            {p: <p>Take these recommendations into account, but try not to get hung up on the technical side of extracting the AUM sound. Just surrender to the flow and be filled with this sound. To produce AUM vibration is a natural ability and need of our body.</p>},
+            {p: <p>Before chanting AUM, you can do any pranayama or shatkarma. So, for example, after a session of kapalbhati or pranayama nadi shodhana, AUM sounds much richer and longer. It is noted that after practicing yoga asanas and, especially, after relaxing in shavasana, the AUM mantra sounds much smoother and richer than before the start of practice.</p>},
+            {p: <p>If after 8-10 times of reciting the AUM mantra you experience deep peace and peace of mind, then you are doing everything right! Don't be discouraged if it doesn't work right away, and don't be ashamed of your unsightly singing and false notes. Over time, you will definitely feel a qualitative improvement in your performing abilities, but most importantly - your well-being and general condition.</p>},
+            {p: <p>On our website there is a separate practice of mantropenia, during which you repeat the mantra OM 108 times after performing a set of pranayamas. There are also separate video lessons that begin and end with the mantra OM. There are also entire practices in the style of vinyasa flow, which are accompanied from start to finish by ancient mantras in a modern sound.</p>},
+            {p: <p>Enrich your practice with mantras. This is an excellent tool that allows you to harmonize the state of mind and body, calm the nervous system, promote the creation of new neural connections and maintain neuroplasticity of the brain.</p>},
+        ]
+    }
 ]
 
 export default dataBlog;
