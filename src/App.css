@@ -1643,7 +1643,6 @@ transition: .25s;
 }
 
 .card_blog_content {
-  text-align: justify;
   margin-left: 40px;
   padding: 0 15px;
 }
