@@ -13,12 +13,12 @@ export const EachBlog = ({eachBlog, learnMoreBlogBtn, chosenBlogs}) => {
                     <h2 className='travel-point-tittle2' id='product' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">{eachBlog[0].name}</h2>
                     {eachBlog[0].text2.map((item, index) => {
                         return (
-                            <div className="eachBlog_content" key={index} data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                            <div className="eachBlog_content" key={index}>
                                 {item.p}
                             </div>
                         )
                     })}
-                    <button  className="eachBlog_btnClose" onClick={() => {chosenBlogs('blog'); window.scrollTo(0, 0)}} data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><i className="fi fi-rr-arrow-left eachBlog_btnClose_icon"></i> Go Back</button>
+                    <button  className="eachBlog_btnClose" onClick={() => {chosenBlogs('blog'); window.scrollTo(0, 0)}}><i className="fi fi-rr-arrow-left eachBlog_btnClose_icon"></i> Go Back</button>
                 </div>
         </div>
     )
