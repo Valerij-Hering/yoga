@@ -1695,8 +1695,8 @@ transition: .25s;
   margin: 60px auto;
   width: 90%;
   max-width: 960px;
-
   display: block;
+  margin-top: 100px;
 }
 
 .eachBlog_img {
@@ -1730,7 +1730,6 @@ transition: .25s;
   color: white;
   background-color: #13274293;
   border-radius: 30px;
-
 }
 
 .eachHeader_par {
@@ -2245,7 +2244,7 @@ margin-bottom: 300px;
   }
 
   .container_eachBlog2 {
-    margin-top: 0px;
+
   }
 
   .box_eachProduct_describing {
