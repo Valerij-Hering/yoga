@@ -92,7 +92,7 @@
   
   .itemBtnExpanded .chevron {
     background-color: #725efe;
-    padding: 0;
+    padding-left: 1px;
 
     border-radius: 50%;
     color: white;

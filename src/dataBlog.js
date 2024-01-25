@@ -118,7 +118,7 @@ const dataBlog = [
         id: '4',
         searchTerm: 'blog',
         name: 'Yoga practice and the phases of the female cycle',
-        name2: 'Healthy yoga',
+        name2: 'Healthy Yoga',
         imgBlog: imgBlog4,
         text: "How to align your yoga practice with a woman's cycle.",
         text2: [
@@ -167,7 +167,7 @@ const dataBlog = [
         id: '5',
         searchTerm: 'blog',
         name: 'Carnation: purpose and effect of practice',
-        name2: 'Healthy yoga',
+        name2: 'Healthy Yoga',
         imgBlog: imgBlog5,
         text: "What the practice of standing on nails gives, how a sadhu board should be used, and where to start.",
         text2: [
@@ -211,6 +211,7 @@ const dataBlog = [
         id: '6',
         searchTerm: 'blog',
         name: 'Yoga nidra - effectiveness and technique',
+        name2: 'Type of Yoga',
         imgBlog: imgBlog6,
         text: "What is yoga nidra and how to practice it properly.",
         text2: [

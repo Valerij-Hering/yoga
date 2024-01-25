@@ -32,11 +32,12 @@ const Blog = () => {
         <div className='section_blog'>
             <div className={learnMoreBlogBtn === true ? "container-blog2" : "container-blog"}>
             {eachBlog.map(element => {
-                const {id, imgBlog, name, text} = element;
+                const {id, imgBlog, name, text, name2} = element;
                 return (
                     <div className='card_blog' key={id} data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                         <img className='card_blog_img' src={imgBlog} alt='blog'/>
                         <div className='card_blog_content'>
+                            <p className='blog_content_header2'>{name2}</p>
                             <h2 className='blog_content_header'>{name}</h2>
                             <p className='blog_content_par'>{text}</p>
                             <button className='blog_content_btn' onClick={() => {learnMoreBlog(id); window.scrollTo(0, 0)}}>Read More</button>
