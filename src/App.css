@@ -2021,6 +2021,7 @@ margin-bottom: 300px;
 
 .container_about {
   min-height: 100vh;
+  margin-bottom: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2305,6 +2306,11 @@ margin-bottom: 300px;
 }
 
 @media all and (max-width: 1030px) {
+
+  .container_about {
+    
+  }
+
   .about-header {
     display: flex;
     flex-direction: column-reverse;

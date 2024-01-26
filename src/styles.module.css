@@ -99,6 +99,7 @@
   
   .itemBtnExpanded .chevron::before {
     content: '-';
+    padding-left: 1px;
   }
 
 
