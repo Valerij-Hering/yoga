@@ -14,7 +14,6 @@ import line from './Images/line2.png'
 import Video from './Video';
 import woman from './Images/woman.png';
 import Accordions from './Accordions';
-import ContactForm from './Feedback';
 import { Prices } from './Prices';
 AOS.init();
 
@@ -113,7 +112,9 @@ function Home() {
             <br/>
             <br/>
             <Prices/>
-            <ContactForm/>
+            <br/>
+            <br/>
+            <br/>
             <ScrollButton/>
         </div>
         

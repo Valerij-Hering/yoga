@@ -1,3 +1,4 @@
+import ContactForm from './Feedback';
 import logo from './Images/logo3.png';
 
 const Footer = () => {
@@ -5,7 +6,7 @@ const Footer = () => {
         <div>
             <div className='shapedividers_com-5956'></div>
             <div className='footer'>
-                <div className="footer_content1">
+                <div className="footer_content1" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     <div className='container-logo_footer'>
                         <img className='logo_footer' src={logo} width="60px" alt='logo'/>
                         <p>yoga</p>
@@ -21,13 +22,16 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='box_footer_socIcon'>
+                   
+                </div>
+                <ContactForm/>
+                    <div className='box_footer_socIcon' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                         <i className="fi fi-brands-facebook footer_socIcon"></i>
                         <i className="fi fi-brands-instagram footer_socIcon"></i>
                         <i className="fi fi-brands-twitter footer_socIcon"></i>
                     </div>
-                </div>
             </div>
+            
         </div>
     )
 }
