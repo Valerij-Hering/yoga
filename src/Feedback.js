@@ -7,7 +7,7 @@ function ContactForm() {
       return <p>Thanks for joining!</p>;
   }
   return (
-      <div className='container_form' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+      <div className='container_form'>
         <div>
           <p className='feedback_par1'>Do you have any quastions?</p>
           <p className='feedback_par2'>Put your email address and get started</p>

@@ -1,6 +1,6 @@
 import logo from './Images/logo3.png'
 
-export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose, scrollToTop}) => {
+export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose}) => {
     return (
         <div className={learnMoreBtn ? "container_eachProduct2" : "container_eachProduct"}>
             
@@ -8,7 +8,7 @@ export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose, scrollToT
             <br/>
                 <div className="eachProduct_btn_box" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                     
-                <button className="eachProduct_btnClose" onClick={() => lernMoreClose()}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Back</button>
+                <a className="eachProduct_btnClose" href='#product' onClick={() => lernMoreClose()}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Back</a>
                 <div className='container-logo'>
                     <img className='logo' src={logo} width="60px" alt='logo'/>
                     <p>yoga</p>
@@ -55,7 +55,7 @@ export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose, scrollToT
                             
                         </div>
                     </div>
-                    <button  className="eachProduct_btnClose2" onClick={() => lernMoreClose()}  data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><i className="fi fi-rr-arrow-left eachProduct_btnClose2_icon"></i> Go Back</button>
+                    <a className="eachProduct_btnClose2" href='#product' onClick={() => lernMoreClose()}  data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><i className="fi fi-rr-arrow-left eachProduct_btnClose2_icon"></i> Go Back</a>
                 </div>
             </div>
         </div>

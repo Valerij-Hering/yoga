@@ -10,6 +10,7 @@ import img6 from './Images/img6.jpg'
 const data = [
 
     {
+        title: 'fitness_yoga',
         id: '1',
         image: 'fitness',
         name: 'Fitness Yoga',
@@ -26,6 +27,7 @@ const data = [
     },
 
     {
+        title: 'yoga_pilates',
         id: '2',
         image: 'pilates',
         name: 'Yoga Pilates',
@@ -42,6 +44,7 @@ const data = [
     },
 
     {
+        title: 'raja_yoga',
         id: '3',
         image: 'raja',
         name: 'Raja Yoga',
@@ -58,6 +61,7 @@ const data = [
     },
 
     {
+        title: 'classical_yoga',
         id: '4',
         image: 'classic',
         name: 'Classical Yoga',
@@ -74,6 +78,7 @@ const data = [
     },
 
     {
+        title: 'nidra_yoga',
         id: '5',
         image: 'hatha',
         name: 'Nidra Yoga',
@@ -90,6 +95,7 @@ const data = [
     },
 
     {
+        title: 'breathing_yoga',
         id: '6',
         image: 'breathing',
         name: 'Breathing Yoga',

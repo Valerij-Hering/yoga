@@ -886,6 +886,7 @@ transition: .25s;
     font-weight: 500;
   transition: 0.3s;
   margin-right: auto;
+  text-decoration: none;
 }
 
 .eachProduct_btnClose:hover {
@@ -899,10 +900,13 @@ transition: .25s;
 }
 
 .eachProduct_btnClose2 {
+
+  text-align: center;
+  vertical-align: middle;
   margin: 0 auto;
   margin-top: 0px;
-  width: 160px;
-  height: 50px;
+  padding: 13px 30px;
+
   font-size: 16px;
   color: white;
   background-color: #725efe;
@@ -912,6 +916,7 @@ transition: .25s;
   border: none;
   margin-bottom: 150px;
   display: none;
+  text-decoration: none;
 }
 
 .eachProduct_btnClose2:hover {
@@ -1529,7 +1534,7 @@ transition: .25s;
   align-items: center;
   text-align: center;
   width: 90%;
-  max-width: 850px;
+  max-width: 390px;
   height: 190px;
 
 
@@ -1537,8 +1542,7 @@ transition: .25s;
 
 
 .box_input_feedback {
-  width: 90%;
-  max-width: 390px;
+  width: 100%;
   height: 40px;
   border-radius: 50px;
   background-color: rgba(255, 255, 255, 0.096);
@@ -1566,6 +1570,7 @@ transition: .25s;
   color: transparent;
   background-color: transparent;
 }
+
 .input_feedback:-webkit-autofill,
 .input_feedback:-webkit-autofill:hover, 
 .input_feedback:-webkit-autofill:focus, 
@@ -1620,7 +1625,6 @@ transition: .25s;
   align-items: flex-start;
   width: 100%;
   margin: 10px auto;
-  position: relative;
   margin-top: 200px;
   display: block;
 }
@@ -1631,7 +1635,6 @@ transition: .25s;
   align-items: flex-start;
   width: 100%;
   margin: 10px auto;
-  position: relative;
   margin-top: 200px;
   display: none;
 }
@@ -1824,7 +1827,7 @@ transition: .25s;
   padding-bottom: 10px;
   background-color: #1a2428;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -2375,15 +2378,13 @@ margin-bottom: 300px;
     justify-content: space-between;
     max-width: 400px;
     border: #52607e26 1px solid;
+    border-radius: 32px;
   }
   
   .card_blog_img {
-    padding: 0;
-    max-width: 100%;
     margin: 10px;
     margin-bottom: 20px;
-    box-shadow: none;
-    border-radius: 10px;
+    border-radius: 24px;
   }
 
   .card_blog_content {
@@ -2401,7 +2402,7 @@ margin-bottom: 300px;
 
   .blog_content_btn {
     margin-bottom: 5px;
-  
+    border-radius: 50px;
     width: 100%;
   }
 
@@ -2441,9 +2442,11 @@ margin-bottom: 300px;
   }
 
   .footer {
+    background-color: #111c2b;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 25px 0;
   }
 
   .box_footer_socIcon {
