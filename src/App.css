@@ -1557,6 +1557,7 @@ transition: .25s;
 .input_feedback {
   background-color: rgba(255, 255, 255, 0);
   align-self: stretch;
+  font-size: 16px;
   flex: 1;
   border: none;
   margin-left: 20px;
@@ -1586,6 +1587,7 @@ transition: .25s;
   padding: 0 30px;
   align-self: stretch;
   border-radius: 50px;
+  font-size: 16px;
   border: none;
   background-color: #725efe;
   color: white;

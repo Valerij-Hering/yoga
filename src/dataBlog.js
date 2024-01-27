@@ -5,6 +5,7 @@ import imgBlog3 from './Images/blogImage3.webp'
 import imgBlog4 from './Images/blogImage4.webp'
 import imgBlog5 from './Images/blogImage5.webp'
 import imgBlog6 from './Images/blogImage6.webp'
+import imgBlog7 from './Images/blogImage7.webp'
 import imgCont1 from './Images/blog-content-img1.jpg'
 import imgCont2 from './Images/blog_cont_img2.webp'
 import imgCont3 from './Images/blog_cont_img3.webp'
@@ -240,7 +241,7 @@ const dataBlog = [
         searchTerm: 'blog',
         name: 'Mantra OM',
         name2: 'Type of Yoga',
-        imgBlog: imgCont7,
+        imgBlog: imgBlog7,
         text: "The purpose and effect of mantras in yoga practice, the impact and technique of performing the mantra OM / AUM.",
         text2: [
             {p: <p>The mantra OM or AUM is the most famous mantra and is often chanted in yoga classes. What sacred meaning does the OM mantra have and what effect does this sound vibration create?</p>},
