@@ -859,10 +859,8 @@ transition: .25s;
 .eachProduct_btn_box {
   width: 100%;
   height: 60px;
-  padding-top: 20px;
   border-bottom: #edeef0 1px solid;
-  margin: 0 auto;
-  margin-bottom: 30px;
+  margin: 30px auto;
   display: flex;
   justify-content: flex-end;
 }

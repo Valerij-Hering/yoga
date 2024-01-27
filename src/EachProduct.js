@@ -5,9 +5,9 @@ export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose}) => {
         <div className={learnMoreBtn ? "container_eachProduct2" : "container_eachProduct"}>
             
             <div className="subcontainer_eachProduct">
-            <br/>
+            
                 <div className="eachProduct_btn_box" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-                    
+                <br/>
                 <a className="eachProduct_btnClose" href='#product' onClick={() => lernMoreClose()}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Back</a>
                 <div className='container-logo'>
                     <img className='logo' src={logo} width="60px" alt='logo'/>
