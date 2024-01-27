@@ -1533,7 +1533,7 @@ transition: .25s;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 90%;
+  width: 82%;
   max-width: 390px;
   height: 190px;
 
@@ -2448,7 +2448,6 @@ margin-bottom: 300px;
   }
 
   .footer {
-    background-color: #111c2b;
     display: flex;
     flex-direction: column;
     align-items: center;
