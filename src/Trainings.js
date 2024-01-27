@@ -16,12 +16,14 @@ const Trainings = ({training}) => {
 
     const learnMore = (id) => {
         setLearnMoreBtn(true);
+        document.body.style.overflow = "hidden";
         const selectedItem = data.filter(item => item.id === id);
         setEachProduct(selectedItem);
     }
 
     const lernMoreClose = () => {
         setLearnMoreBtn(false);
+        document.body.style.overflow = "auto";
     }
 
     return (
