@@ -11,7 +11,7 @@ import imgCont3 from './Images/blog_cont_img3.webp'
 import imgCont4 from './Images/blog-content-img4.jpg'
 import imgCont5 from './Images/blog-content-img5.jpg'
 import imgCont6 from './Images/blog_cont_img6.webp'
-import imgCont7 from './Images/blogImage7.webp'
+import imgCont7 from './Images/blog_cont_img7.webp'
 import imgCont8 from './Images/blog_cont_img8.webp'
 import imgCont9 from './Images/blog_cont_img9.webp'
 
