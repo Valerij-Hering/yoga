@@ -55,7 +55,7 @@ export const EachProduct = ({eachProduct, learnMoreBtn, lernMoreClose}) => {
                             
                         </div>
                     </div>
-                    <a className="eachProduct_btnClose2" href='#product' onClick={() => lernMoreClose()}  data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><i className="fi fi-rr-arrow-left eachProduct_btnClose2_icon"></i> Go Back</a>
+                    {/* <a className="eachProduct_btnClose2" href='#product' onClick={() => lernMoreClose()}  data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><i className="fi fi-rr-arrow-left eachProduct_btnClose2_icon"></i> Go Back</a> */}
                 </div>
             </div>
         </div>
