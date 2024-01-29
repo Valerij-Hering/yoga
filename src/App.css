@@ -858,7 +858,7 @@ transition: .25s;
 
 .eachProduct_btn_box {
   width: 100%;
-  height: 90px;
+  height: 60px;
   padding-bottom: 10px;
   border-bottom: #edeef0 1px solid;
   margin: 30px auto;
@@ -2663,6 +2663,10 @@ margin-bottom: 300px;
 
   .container-tarif {
     max-width: 300px;
+  }
+
+  .eachProduct_btn_box {
+    height: 110px;
   }
 
 }
