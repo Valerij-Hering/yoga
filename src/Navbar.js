@@ -55,8 +55,9 @@ const Navbar = () => {
             <Link onClick={Scroll} to="/" className='link'>Home</Link>
             <HashLink className='link' smooth to="/#product">Programm</HashLink>
             <Link onClick={Scroll} to="/about" className='link'>About Us</Link>
-            <Link onClick={() => {Scroll(); window.reload()}} to="/blog" className='link'>Blog</Link>
+            <Link onClick={Scroll} to="/blog" className='link'>Blog</Link>
             <Link onClick={Scroll} to="/contacts" className='link link-contacts'>Contacts</Link>
+            
           </div>
           
           <div className='box_navbarAuth' data-aos="fade-down" data-aos-duration="1500" data-aos-once="false">
