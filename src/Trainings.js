@@ -31,11 +31,11 @@ const Trainings = ({training}) => {
             {training.map(element => {
                 const {id, image, name, text} = element;
                 return (
-                    <div className="product-card" onClick={() => learnMore(id)} style={{ backgroundImage: `url(${image}.jpg)` } } key={id} data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                    <div className="product-card" style={{ backgroundImage: `url(${image}.jpg)` } } key={id} data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
                         <div className='productCard-box'>
                             <p className='product-header'>{name}</p>
                         <p className="product-text">{text}</p> 
-                        <button className='productCard_btn'>Read More</button>
+                        <button className='productCard_btn' onClick={() => learnMore(id)}>Read More</button>
                         <div className='shapedividers_com-3652'></div>
                         
                         <div className="box-nameAndText ">

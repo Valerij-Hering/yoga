@@ -55,9 +55,8 @@ const Navbar = () => {
             <Link onClick={Scroll} to="/" className='link'>Home</Link>
             <HashLink className='link' smooth to="/#product">Programm</HashLink>
             <Link onClick={Scroll} to="/about" className='link'>About Us</Link>
-            <Link onClick={Scroll} to="/blog" className='link'>Blog</Link>
+            <Link onClick={() => {Scroll(); window.reload()}} to="/blog" className='link'>Blog</Link>
             <Link onClick={Scroll} to="/contacts" className='link link-contacts'>Contacts</Link>
-            
           </div>
           
           <div className='box_navbarAuth' data-aos="fade-down" data-aos-duration="1500" data-aos-once="false">
@@ -78,7 +77,7 @@ const Navbar = () => {
             <Link  onClick={() => {burgerActiv(); Scroll()}}  to="/" className='link-burger link-burger1'>Home</Link>
             <HashLink className='link-burger link-burger1' onClick={() => burgerActiv()} smooth to="/#product">Programm</HashLink>
             <Link  onClick={() => {burgerActiv(); Scroll()}} to="/about" className='link-burger'>About Us</Link>
-            <Link onClick={() => {burgerActiv(); Scroll()}} to="/blog" className='link-burger'>Blog</Link>
+            <Link onClick={() => {burgerActiv(); Scroll(); window.location.reload()}} to="/blog" className='link-burger'>Blog</Link>
             <Link  onClick={() => {burgerActiv(); Scroll()}} to="/contacts" className='link-burger'>Contacts</Link>
             
         </div>
