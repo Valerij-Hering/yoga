@@ -78,7 +78,7 @@ const Navbar = () => {
             <Link  onClick={() => {burgerActiv(); Scroll()}}  to="/" className='link-burger link-burger1'>Home</Link>
             <HashLink className='link-burger link-burger1' onClick={() => burgerActiv()} smooth to="/#product">Programm</HashLink>
             <Link  onClick={() => {burgerActiv(); Scroll()}} to="/about" className='link-burger'>About Us</Link>
-            <Link onClick={() => {burgerActiv(); Scroll(); window.location.reload()}} to="/blog" className='link-burger'>Blog</Link>
+            <Link onClick={() => {burgerActiv(); Scroll()}} to="/blog" className='link-burger'>Blog</Link>
             <Link  onClick={() => {burgerActiv(); Scroll()}} to="/contacts" className='link-burger'>Contacts</Link>
             
         </div>
