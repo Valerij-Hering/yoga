@@ -1825,7 +1825,6 @@ transition: .25s;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding-left: 10px;
   
 }
 
@@ -1845,32 +1844,19 @@ transition: .25s;
 
 }
 
-.blogHome-carousel-btn {
-  background-color: #13274200;
-  border: none;
-  font-size: 30px;
-  color: #bed6f0;
-  cursor: pointer;
-  margin-bottom: 50px;
-  z-index: 1;
-}
-
-
-
 .card_blogHome {
   box-sizing: inherit;
   display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-right: 15px;
+    margin:0 7px;
     min-width: 280px;
     height: 420px;
     padding: 10px;
     width: 300px;
     border: #bed6f06c 1px solid;
     border-radius: 32px;
-    scroll-snap-align: start;
 }
 
 .card_blogHome_img {

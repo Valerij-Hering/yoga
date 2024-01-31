@@ -32,7 +32,7 @@ const BlogHome = () => {
                     </div>
                     
                 )
-            }).slice(-3).reverse()}
+            }).slice(0, 3)}
             
             </div>
         </div>
