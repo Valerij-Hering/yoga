@@ -25,8 +25,8 @@ const BlogHome = () => {
                         <div className='card_blogHome_content'>
                             <h2 className='blogHome_content_header'>{name}</h2>
                             <p className='blogHome_content_par'>{text}</p>
-                            <Link onClick={window.scrollTo(0, 0)} to="/blog">
-                            <button className='blogHome_content_btn'>Read More</button>
+                            <Link  onClick={() => window.scrollTo(0, 0)} to="/blog">
+                            <button className='blogHome_content_btn' >Read More</button>
                             </Link>
                         </div>
                     </div>

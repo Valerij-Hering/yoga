@@ -15,7 +15,7 @@ import Video from './Video';
 import woman from './Images/woman.png';
 import Accordions from './Accordions';
 import { Prices } from './Prices';
-
+import BlogHome from './BlogHome';
 AOS.init();
 
 
@@ -112,7 +112,7 @@ function Home() {
             <br/>
             <br/>
             <br/>
-
+            <BlogHome/>
             <Prices/>
             <br/>
             <br/>
