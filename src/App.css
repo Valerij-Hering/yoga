@@ -1831,6 +1831,7 @@ transition: .25s;
 .container-blogHome {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: flex-start;
   align-items: flex-end;
   overflow-x: auto;
   width: 100%;
