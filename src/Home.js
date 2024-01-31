@@ -92,8 +92,8 @@ function Home() {
             
 
             <div className='section_trainers'>
-            <p className='trainers-phone-tittle1' id='training'>Team</p>
-            <h2 className='trainers-phone-tittle2' id='product'>Meet Our Experiense Trainers</h2>
+            <p className='trainers-phone-tittle1' id='training' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Team</p>
+            <h2 className='trainers-phone-tittle2' id='product' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Meet Our Experiense Trainers</h2>
             <Carousel/>
             </div>
             <div className='container_faq'>
