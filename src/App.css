@@ -1830,7 +1830,6 @@ transition: .25s;
 
 .container-blogHome {
   display: flex;
-  flex-direction: row;
   flex-wrap: nowrap;
   align-items: flex-end;
   overflow-x: auto;
@@ -1850,7 +1849,7 @@ transition: .25s;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin:0 7px;
+    margin:0 10px;
     min-width: 280px;
     height: 420px;
     padding: 10px;

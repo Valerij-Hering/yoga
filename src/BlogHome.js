@@ -26,7 +26,7 @@ const BlogHome = () => {
                             <h2 className='blogHome_content_header'>{name}</h2>
                             <p className='blogHome_content_par'>{text}</p>
                             <Link onClick={window.scrollTo(0, 0)} to="/blog">
-                            <button className='blogHome_content_btn' onClick={() => { window.scrollTo(0, 0)}}>Read More</button>
+                            <button className='blogHome_content_btn'>Read More</button>
                             </Link>
                         </div>
                     </div>
