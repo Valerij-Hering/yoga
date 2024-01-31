@@ -1838,6 +1838,11 @@ transition: .25s;
   margin: 10px auto;
 }
 
+.breack {
+  min-width: 30px;
+  display: none;
+}
+
 .container-blogHome::-webkit-scrollbar {
   display: none; 
 
@@ -1849,7 +1854,7 @@ transition: .25s;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin:0 10px;
+    margin:0 7px;
     min-width: 280px;
     height: 420px;
     padding: 10px;
@@ -2757,6 +2762,10 @@ margin-bottom: 300px;
 
   .eachProduct_btn_box {
     height: 110px;
+  }
+  
+  .breack {
+    display: block;
   }
 
 }

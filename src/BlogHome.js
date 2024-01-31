@@ -15,11 +15,11 @@ const BlogHome = () => {
             <p className='travel-point-tittle1' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Latest Blog</p>
             <h2 className='travel-point-tittle2' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Updates Blog Post</h2>
             <div className= "container-blogHome" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-            
+            <div className='breack'></div>
             {dataBlog.map(element => {
                 const {id, imgBlog, name, text} = element;
                 return (
-                    
+
                     <div className='card_blogHome' key={id} >
                         <img className='card_blogHome_img' src={imgBlog} alt='blog'/>
                         <div className='card_blogHome_content'>
@@ -30,10 +30,10 @@ const BlogHome = () => {
                             </Link>
                         </div>
                     </div>
-                    
+
                 )
             }).slice(0, 3)}
-            
+            <div className='breack'></div>
             </div>
         </div>
     )
