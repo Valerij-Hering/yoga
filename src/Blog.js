@@ -4,6 +4,7 @@ import 'aos/dist/aos.css';
 import dataBlog from './dataBlog';
 import { EachBlog } from './EachBlog';
 
+
 AOS.init();
 
 

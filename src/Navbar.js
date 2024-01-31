@@ -68,7 +68,6 @@ const Navbar = () => {
         </nav>
 
         <div className={burger ? 'container-burger-activ' : 'container-burger'} >
-          
             <button className='btn-close-burger' onClick={() => burgerActiv()}><i className='fi fi-rr-cross-small'></i></button>
             <div className='box_navbarBurgerAuth'>
             <Account/>
@@ -80,9 +79,8 @@ const Navbar = () => {
             <Link  onClick={() => {burgerActiv(); Scroll()}} to="/about" className='link-burger'>About Us</Link>
             <Link onClick={() => {burgerActiv(); Scroll()}} to="/blog" className='link-burger'>Blog</Link>
             <Link  onClick={() => {burgerActiv(); Scroll()}} to="/contacts" className='link-burger'>Contacts</Link>
-            
         </div>
-     
+
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>} />
