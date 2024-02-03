@@ -26,8 +26,7 @@ const ScrollButton = () =>{
     window.addEventListener('scroll', toggleVisible);
     
     return (
-        <button className="scroll-btn" onClick={scrollToTop}
-        style={{display: visible ? 'inline' : 'none'}} >
+        <button className={visible ? "scroll-btn_visible" : "scroll-btn"} onClick={scrollToTop}>
 
             <i className="fas fa-angle-up scroll-icon"></i>
         </button>

@@ -2179,21 +2179,37 @@ margin-bottom: 300px;
 /* SCROLL-BUTTON *********************************************************************************************************************************/
 
 .scroll-btn {
+  opacity: 0;
   position: fixed;
     height: 45px;
     width: 45px;
     background: #725efe;
     right: 25px;
+    bottom: 10px;
+    color: #fff;
+    z-index: 10;
+    font-size: 23px;
+    border-radius: 50%;
+    transition: 0.3s;
+    border: none;
+}
+
+.scroll-btn_visible {
+  opacity: 1;
+  position: fixed;
+    display: block;
+    height: 45px;
+    width: 45px;
+    background: #725efe;
+    right: 25px;
     bottom: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     color: #fff;
     z-index: 10;
     font-size: 23px;
     border-radius: 50%;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: 0.3s;
     border: none;
 }
 
