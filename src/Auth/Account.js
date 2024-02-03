@@ -15,11 +15,11 @@ const Account = () => {
         )
         :
         (
-            <div className="account_box">
-                <img  src={userImg}  alt=""/>
-                <p>example@email.com</p>
-            </div>
-            )
+        <div className="account_box">
+            <img  src={userImg}  alt=""/>
+            <p>example@email.com</p>
+        </div>
+        )
     
         )
 }
