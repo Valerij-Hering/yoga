@@ -2,9 +2,12 @@ import { useAuth0 } from "@auth0/auth0-react";
 import userImg from '../Images/userImg.png'
 
 
+
 const Account = () => {
 
     const { user, isAuthenticated } = useAuth0();
+
+
 
     return (
     isAuthenticated ? (

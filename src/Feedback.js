@@ -1,24 +1,22 @@
 
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-
-import toast from 'react-hot-toast';
+import Swal from 'sweetalert2'
 
 function ContactForm() {
   const [state, handleSubmit] = useForm("xbjbydqz");
+
+  console.log(state)
+
   if (state.succeeded) {
-    toast(<div className='container_alert'>
-      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 124 124">
-        <circle className="circle-loading" cx="62" cy="62" r="59" fill="none" stroke="#4de38146" stroke-width="6px"></circle>
-        <circle className="circle" cx="62" cy="62" r="59" fill="none" stroke="#4de381" stroke-width="6px" stroke-linecap="round"></circle>
-        <polyline className="check" points="73.56 48.63 57.88 72.69 49.38 62" fill="none" stroke="#4de381" stroke-width="6px" stroke-linecap="round"></polyline>
-      </svg>
-      <p className='alert_par'>Thank You!</p>
-    </div>, {
-      duration: 3000,
-      position: 'bottom-left',
-  });
-      
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: "Thank You!",
+      showConfirmButton: false,
+      timer: 1500
+    });
+
   }
   return (
       <div className='container_form'>
@@ -29,7 +27,7 @@ function ContactForm() {
         <form className='box_input_feedback' onSubmit={handleSubmit}>
       <label htmlFor="email">
       </label>
-      <input 
+      <input
         className='input_feedback'
         id="email"
         type="email" 
