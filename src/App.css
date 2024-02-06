@@ -1555,6 +1555,7 @@ transition: .25s;
   background-color: rgba(255, 255, 255, 0);
   align-self: stretch;
   flex: 1;
+  font-size: 16px;
   border: none;
   margin-left: 20px;
   outline: none;
@@ -1566,6 +1567,7 @@ transition: .25s;
 .input_feedback:focus::placeholder {
   color: transparent;
   background-color: transparent;
+  font-size: 13px;
 }
 
 .input_feedback:-webkit-autofill,
@@ -1583,6 +1585,7 @@ transition: .25s;
   padding: 0 30px;
   align-self: stretch;
   border-radius: 50px;
+  font-size: 16px;
   border: none;
   background-color: #725efe;
   color: white;
