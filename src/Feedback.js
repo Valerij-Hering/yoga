@@ -17,6 +17,31 @@ function ContactForm() {
       timer: 1500
     });
 
+    return (
+      <div className='container_form'>
+        <div>
+          <p className='feedback_par1'>Do you have any quastions?</p>
+          <p className='feedback_par2'>Put your email address and get started</p>
+        </div>
+        <form className='box_input_feedback'>
+      <label htmlFor="email">
+      </label>
+      <input
+        className='input_feedback'
+        id="email"
+        type="email" 
+        name="email"
+        placeholder='Enter your email'
+      />
+      
+      <button className='btn_feedback'>
+        Send
+      </button>
+    </form>
+    
+    </div>
+  );
+
   }
   return (
       <div className='container_form'>
