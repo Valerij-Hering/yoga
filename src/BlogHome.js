@@ -16,7 +16,7 @@ const BlogHome = () => {
   const scrollRight = () => {
     const container = containerRef.current;
     container.scrollTo({
-      left: container.scrollLeft + 968,
+      left: container.scrollLeft + 966,
       behavior: 'smooth' // Плавный скролл
     });
   };
@@ -24,7 +24,7 @@ const BlogHome = () => {
   const scrollLeft = () => {
     const container = containerRef.current;
     container.scrollTo({
-      left: container.scrollLeft - 968,
+      left: container.scrollLeft - 966,
       behavior: 'smooth' // Плавный скролл
     });
   };
