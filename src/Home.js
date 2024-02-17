@@ -113,6 +113,8 @@ function Home() {
             <br/>
             <br/>
             <BlogHome/>
+            <br/>
+            <br/>
             <Prices/>
             <br/>
             <br/>

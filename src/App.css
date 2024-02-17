@@ -1888,15 +1888,45 @@ transition: .25s;
   
 }
 
-.container-blogHome {
+.box_homeBlog_header {
   display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.box_homeBlog_btn_PrevNext {
+  margin-bottom: 25px;
+}
+
+.box_homeBlog_btn_PrevNext button {
+  font-size: 18px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  background-color: #735efe;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.box_homeBlog_btn_PrevNext button:hover {
+  background-color: #604aeb;
+}
+
+.container-blogHome {
+  display: grid;
+  grid-gap: 10px;
+  grid-auto-flow: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: flex-end;
   overflow-x: auto;
   width: 100%;
   height: 470px;
-  margin: 10px auto;
+  margin: 0px auto;
+  position: 'relative'
 }
 
 .breack {
@@ -1909,17 +1939,31 @@ transition: .25s;
 
 }
 
+.progressBar_homeBlog {
+  width: 100%;
+  height: 5px;
+  background: #bed6f027;
+  bottom: 0;
+  left: 0;
+  border-radius: 50px;
+}
+
+.progress_homeBlog {
+  background: #bed6f0;
+  border-radius: 50px;
+  height: 100%;
+}
+
 .card_blogHome {
   box-sizing: inherit;
   display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin:0 7px;
     min-width: 280px;
     height: 420px;
     padding: 10px;
-    width: 300px;
+    width: 291px;
     border: #bed6f06c 1px solid;
     border-radius: 32px;
 }
@@ -1963,16 +2007,19 @@ transition: .25s;
   width: 100%;
   height: 50px;
   font-size: 16px;
-  color: white;
-  background-color: #735efe;
-  border-radius: 50px;
-  transition: 0.3s;
-  cursor: pointer;
+  background-color: #bed6f040;
+  color: #725efe;
+  font-weight: 400;
   border: none;
+  border-radius: 50px;
+
+  cursor: pointer;
+
 }
 
 .blogHome_content_btn:hover {
-  background-color: #604aeb;
+  color: white;
+  background-color: #725efe;
 }
 
 
@@ -2274,8 +2321,8 @@ margin-bottom: 300px;
     border: none;
 }
 
-.scroll-btn:hover {
-  background: #644cff;
+.scroll-btn_visible:hover {
+  background: #604aeb;
 }
 
 @media all and (max-width: 1200px) {
@@ -2390,6 +2437,14 @@ margin-bottom: 300px;
     margin-top: 30px;
     height: 100%;
     max-width: 620px;
+  }
+
+  .box_homeBlog_btn_PrevNext {
+    display: none;
+  }
+
+  .box_homeBlog_header {
+    justify-content: center;
   }
 
 }

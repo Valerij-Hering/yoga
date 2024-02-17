@@ -3,6 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import dataBlog from './dataBlog';
 import { Link } from "react-router-dom"
+import { useRef } from 'react';
 
 AOS.init();
 
@@ -10,11 +11,40 @@ AOS.init();
 
 const BlogHome = () => {
 
+    const containerRef = useRef(null);
+
+  const scrollRight = () => {
+    const container = containerRef.current;
+    container.scrollTo({
+      left: container.scrollLeft + 968,
+      behavior: 'smooth' // Плавный скролл
+    });
+  };
+
+  const scrollLeft = () => {
+    const container = containerRef.current;
+    container.scrollTo({
+      left: container.scrollLeft - 968,
+      behavior: 'smooth' // Плавный скролл
+    });
+  };
+
+
     return (
         <div className='section_blogHome'>
-            <p className='travel-point-tittle1' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Latest Blog</p>
-            <h2 className='travel-point-tittle2' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Updates Blog Post</h2>
-            <div className= "container-blogHome" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+            <div className='box_homeBlog_header' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+                <div>
+                    <p className='travel-point-tittle1' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Latest Blog</p>
+                    <h2 className='travel-point-tittle2' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">Updates Blog Post</h2>
+                </div>
+                <div className='box_homeBlog_btn_PrevNext'>
+                    <button onClick={scrollLeft}><i className="fas fa-angle-left scroll-icon"></i></button>
+                    <button onClick={scrollRight}><i className="fas fa-angle-right scroll-icon"></i></button>
+                </div>
+            </div>
+            
+
+            <div className= "container-blogHome" ref={containerRef}  data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
             <div className='breack'></div>
             {dataBlog.map(element => {
                 const {id, imgBlog, name, text} = element;
@@ -32,9 +62,10 @@ const BlogHome = () => {
                     </div>
 
                 )
-            }).slice(0, 3)}
+            })}
             <div className='breack'></div>
             </div>
+          
         </div>
     )
 }
