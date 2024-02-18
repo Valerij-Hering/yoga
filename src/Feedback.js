@@ -6,8 +6,6 @@ import Swal from 'sweetalert2'
 function ContactForm() {
   const [state, handleSubmit] = useForm("xbjbydqz");
 
-  console.log(state)
-
   if (state.succeeded) {
     Swal.fire({
       position: "top-end",
