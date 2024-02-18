@@ -1702,9 +1702,9 @@ transition: .25s;
   align-items: center;
   justify-content: center;
   margin: 100px 0;
-  
   border-radius: 16px;
   box-sizing: inherit;
+  padding: 10px;
   
 }
 
@@ -2600,9 +2600,10 @@ margin-bottom: 300px;
     justify-content: space-between;
     height: 500px;
     max-width: 400px;
-    border: #52607e26 1px solid;
+
     border-radius: 37px;
     padding: 20px;
+    box-shadow: 0 0 28px #0000FF14;
   }
   
   .card_blog_img {
