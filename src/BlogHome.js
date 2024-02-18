@@ -45,7 +45,7 @@ const BlogHome = () => {
             
 
             <div className= "container-blogHome" ref={containerRef}  data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-            <div className='breack'></div>
+            <div className='breack'>ddddd</div>
             {dataBlog.map(element => {
                 const {id, imgBlog, name, text} = element;
                 return (
@@ -63,7 +63,7 @@ const BlogHome = () => {
 
                 )
             })}
-            <div className='breack'></div>
+            <div className='breack'>dddd</div>
             </div>
           
         </div>

@@ -1917,7 +1917,6 @@ transition: .25s;
 
 .container-blogHome {
   display: grid;
-  
   grid-gap: 10px;
   grid-auto-flow: column;
   flex-wrap: nowrap;
@@ -1932,6 +1931,7 @@ transition: .25s;
 .breack {
   min-width: 30px;
   display: none;
+  color: white;
 }
 
 .container-blogHome::-webkit-scrollbar {
