@@ -1702,6 +1702,7 @@ transition: .25s;
   align-items: center;
   justify-content: center;
   margin: 100px 0;
+  
   border-radius: 16px;
   box-sizing: inherit;
   
@@ -1734,6 +1735,7 @@ transition: .25s;
 
 .blog_content_par {
   color: #637080;
+  margin: 10px 0;
 }
 
 .blog_content_btn {

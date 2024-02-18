@@ -11,13 +11,13 @@ AOS.init();
 
 const BlogHome = () => {
 
-    const containerRef = useRef(null);
+  const containerRef = useRef(null);
 
   const scrollRight = () => {
     const container = containerRef.current;
     container.scrollTo({
       left: container.scrollLeft + 966,
-      behavior: 'smooth' // Плавный скролл
+      behavior: 'smooth'
     });
   };
 
@@ -25,7 +25,7 @@ const BlogHome = () => {
     const container = containerRef.current;
     container.scrollTo({
       left: container.scrollLeft - 966,
-      behavior: 'smooth' // Плавный скролл
+      behavior: 'smooth'
     });
   };
 
@@ -45,11 +45,10 @@ const BlogHome = () => {
             
 
             <div className= "container-blogHome" ref={containerRef}  data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
-            <div className='breack'>ddddd</div>
+            <div className='breack'>......</div>
             {dataBlog.map(element => {
                 const {id, imgBlog, name, text} = element;
                 return (
-
                     <div className='card_blogHome' key={id} >
                         <img className='card_blogHome_img' src={imgBlog} alt='blog'/>
                         <div className='card_blogHome_content'>
@@ -60,10 +59,9 @@ const BlogHome = () => {
                             </Link>
                         </div>
                     </div>
-
                 )
             })}
-            <div className='breack'>dddd</div>
+            <div className='breack'>......</div>
             </div>
           
         </div>
