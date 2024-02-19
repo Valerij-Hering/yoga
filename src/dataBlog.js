@@ -213,7 +213,7 @@ const dataBlog = [
     {
         id: '6',
         searchTerm: 'blog',
-        name: 'Yoga nidra - effectiveness',
+        name: 'Yoga nidra - effectiveness and technique',
         name2: 'Type of Yoga',
         imgBlog: imgBlog6,
         text: "What is yoga nidra and how to practice it properly.",
