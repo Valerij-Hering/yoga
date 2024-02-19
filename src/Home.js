@@ -56,9 +56,9 @@ function Home() {
             handleplay={handleplay}
             refVideo={refVideo}
             paused={paused}/>
-                <div>
-                    <img className='girl-header' src={imageHeader} alt="girl" data-aos="fade-up" data-aos-duration="1500" />
-                </div>
+                
+                <img className='girl-header' src={imageHeader} alt="girl" data-aos="fade-up" data-aos-duration="1500" />
+                
                 
             </div>
             <h2 className='info-title1' data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">How It Works</h2>
