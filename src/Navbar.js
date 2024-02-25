@@ -77,7 +77,7 @@ const Navbar = () => {
             <Logout/>
             </div>
             <br/>
-            <NavLink  onClick={() => {burgerActiv(); Scroll()}}  to="/" className={({ isActive }) => isActive ? 'activeBurgerLink' : 'link-burger link-burger1'}>Home</NavLink>
+            <NavLink  onClick={() => {burgerActiv(); Scroll()}}  to="/" className={({ isActive }) => isActive ? 'activeBurgerLink' : 'link-burger'}>Home</NavLink>
             <HashLink className='link-burger link-burger1' onClick={() => burgerActiv()} smooth to="/#product">Programm</HashLink>
             <NavLink  onClick={() => {burgerActiv(); Scroll()}} to="/about" className={({ isActive }) => isActive ? 'activeBurgerLink' : 'link-burger'}>About Us</NavLink>
             <NavLink onClick={() => {burgerActiv(); Scroll()}} to="/blog" className={({ isActive }) => isActive ? 'activeBurgerLink' : 'link-burger'}>Blog</NavLink>
