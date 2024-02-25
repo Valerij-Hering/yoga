@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import dataBlog from './dataBlog';
+import dataBlog from './data/dataBlog';
 import { EachBlog } from './EachBlog';
 
 

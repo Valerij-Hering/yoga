@@ -4,7 +4,7 @@ import yoga from './Images/yoga2.png';
 import ticket from './Images/ticket2.png';
 import { useState, useRef } from 'react';
 import Trainings from './Trainings';
-import data from './data';
+import data from './data/data';
 import Buttons from './Buttons';
 import Carousel from './Carousel';
 import ScrollButton from './ScrollButton';

@@ -1,7 +1,7 @@
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import dataBlog from './dataBlog';
+import dataBlog from './data/dataBlog';
 import { Link } from "react-router-dom"
 import { useRef } from 'react';
 

@@ -52,7 +52,7 @@ body {
 
 
 .link-burger {
-  padding: 18px 0px;
+  padding: 18px 10px;
   padding-left: 30px;
   margin-top: 0px;
   text-decoration: none;
@@ -63,8 +63,15 @@ body {
 
 
 
-.link-burger:hover {
+.activeBurgerLink {
+  padding: 10px 30px;
+  border-radius: 10px;
+  margin: 10px ;
+  margin-top: 0px;
+  text-decoration: none;
+  font-size: 20px;
   color: #132742;
+  cursor: pointer;
   background-color: #edeef0;
 }
 
@@ -120,12 +127,14 @@ body {
   font-size: 17px;
   text-decoration: none;
   font-weight: 500;
-  padding: 2px;
+  padding: 2px 7px;
   padding-bottom: 1px;
   border-bottom: 2px solid #ffffff00;
 }
 
-.link:hover {
+
+
+.activeLink {
   border-bottom: 2px solid #ffa800;
 }
 
@@ -256,6 +265,7 @@ body {
 
 .girl-header {
   width: 72%;
+  max-width: 1030px;
   margin-top: 30px;
   margin-left: 400px;
 }
@@ -2103,6 +2113,10 @@ transition: .25s;
   margin-right: 12px;
   font-size: 15px;
   color: white;
+}
+
+.box_footer_socIcon a {
+  text-decoration: none;
 }
 
   

@@ -26,9 +26,9 @@ const Footer = () => {
                 </div>
                 <ContactForm/>
                     <div className='box_footer_socIcon'>
-                        <i className="fi fi-brands-facebook footer_socIcon"></i>
-                        <i className="fi fi-brands-instagram footer_socIcon"></i>
-                        <i className="fi fi-brands-twitter footer_socIcon"></i>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i className="fi fi-brands-facebook footer_socIcon"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i className="fi fi-brands-instagram footer_socIcon"></i></a>
+                        <a href='https://twitter.com/' target="_blank" rel="noopener noreferrer"><i className="fi fi-brands-twitter footer_socIcon"></i></a>
                     </div>
             </div>
             

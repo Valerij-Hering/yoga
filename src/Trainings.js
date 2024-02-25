@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import lotus from './Images/lotus.png';
-import data from './data';
+import data from './data/data';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import { EachProduct } from './EachProduct';

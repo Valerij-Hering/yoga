@@ -1,4 +1,4 @@
-import dataCarousel from "./dataCarousel";
+import dataCarousel from "./data/dataCarousel";
 import { useState } from 'react';
 
 function Carousel() {
