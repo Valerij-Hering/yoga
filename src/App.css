@@ -24,8 +24,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ecf0f3;
+  background-image: url(/public/beams-basic-transparent.png);
+  background-size: 250%;
+  background-repeat: no-repeat;
+  
 }
-
 
 
 /* BURGER *****************************************************************************************************************************/
@@ -150,6 +154,7 @@ body {
 
 .activeLink {
   border-bottom: 2px solid #ffa800;
+
 }
 
 .logo {
