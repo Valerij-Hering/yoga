@@ -27,10 +27,8 @@ body {
 
 .loader {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
-  margin-top: 31vh;
-
   position: relative;
 }
 
@@ -2747,6 +2745,14 @@ margin-bottom: 300px;
 }
 
 @media all and (max-width: 500px)  {
+
+  .loader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 31vh;
+    position: relative;
+  }
 
   .link {
     display: none;
