@@ -11,8 +11,6 @@ AOS.init();
 
 const Blog = () => {
 
-    
-
     const [eachBlog, setEachBlog] = useState(dataBlog)
     const [learnMoreBlogBtn, setLearnMoreBlogBtn] = useState(false);
 

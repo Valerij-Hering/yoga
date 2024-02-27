@@ -3,7 +3,7 @@
 export const EachBlog = ({eachBlog, learnMoreBlogBtn, chosenBlogs}) => {
 
     return (
-        <div className={learnMoreBlogBtn ? "container_eachBlog2" :  "container_eachBlog"}>
+        <div id="blog1" className={learnMoreBlogBtn ? "container_eachBlog2" :  "container_eachBlog"}>
             <div className="eachProduct_btn_box" data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
                 <button className="eachProduct_btnClose" onClick={() => {chosenBlogs('blog'); window.scrollTo(0, 0)}}><i className="fi fi-ss-angle-left eachProduct_btnClose_icon"></i> Go Back</button>
                 </div>

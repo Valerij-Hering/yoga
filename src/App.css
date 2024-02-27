@@ -24,13 +24,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #ecf0f3;
-  background-image: url(/public/beams-basic-transparent.png);
-  background-size: 250%;
-  background-repeat: no-repeat;
-  
+  position: relative;
 }
 
+#logoLoader2 {
+  position: fixed;
+}
+
+#logoLoader {
+  opacity: 0.5;
+}
 
 /* BURGER *****************************************************************************************************************************/
 
